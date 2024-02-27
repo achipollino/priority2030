@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Программа развития ПГУПС "Приоритет 2030"</title>
-    <link rel="shortcut icon" href="images/logo.PNG" type="image/png">
     <link rel="stylesheet" href="styles/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
           integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
@@ -11,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
           integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -30,31 +28,43 @@
                 <img src="images/logo.PNG" alt="Логотип ПГУПС">
             </a>
         </div>
-        <nav class="menu topnav" id="myTopnav">
-            <ul class="menu-items">
-                <li>
-                    <a href="#priority2030" class="menu-link">Приоритет 2030</a>
-                </li>
-                <li>
-                    <a href="#projects" class="menu-link">Проекты</a>
-                </li>
-                <li>
-                    <a href="#department" class="menu-link">Цифровая кафедра</a>
-                </li>
-                <li>
-                    <a href="#politics" class="menu-link">Политики</a>
-                </li>
-                <li>
-                    <a href="#news" class="menu-link">Новости</a>
-                </li>
-                <li>
-                    <a href="#personalities" class="menu-link">Состав совета</a>
-                </li>
-                <li>
-                    <a href="#" id="menu" class="icon">&#9776;</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header__menu">
+            <div class="menu__icon">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 250.579 250.579" style="enable-background:new 0 0 250.579 250.579;" class="menu__img" xml:space="preserve">
+                    <g id="Menu">
+                        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M22.373,76.068h205.832c12.356,0,22.374-10.017,22.374-22.373
+                            c0-12.356-10.017-22.373-22.374-22.373H22.373C10.017,31.323,0,41.339,0,53.696C0,66.052,10.017,76.068,22.373,76.068z
+                            M228.205,102.916H22.373C10.017,102.916,0,112.933,0,125.289c0,12.357,10.017,22.373,22.373,22.373h205.832
+                            c12.356,0,22.374-10.016,22.374-22.373C250.579,112.933,240.561,102.916,228.205,102.916z M228.205,174.51H22.373
+                            C10.017,174.51,0,184.526,0,196.883c0,12.356,10.017,22.373,22.373,22.373h205.832c12.356,0,22.374-10.017,22.374-22.373
+                            C250.579,184.526,240.561,174.51,228.205,174.51z"/>
+                    </g>
+                </svg>
+            </div>
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li>
+                        <a href="#priority2030" class="menu-link">Приоритет 2030</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="menu-link">Проекты</a>
+                    </li>
+                    <li>
+                        <a href="#department" class="menu-link">Цифровая кафедра</a>
+                    </li>
+                    <li>
+                        <a href="#politics" class="menu-link">Политики</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="menu-link">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#personalities" class="menu-link">Состав совета</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 
@@ -207,10 +217,10 @@
 
 <section class="projects" id="projects">
     <div class="container">
-        <h2 class="title politics__title wow animate__fadeInLeft">Стратегические проекты</h2>
+        <h2 class="title politics__title wow animate__fadeInDown">Стратегические проекты</h2>
         <div class="projects-cards">
             <div class="wrap">
-                <div class="card">
+                <div class="card wow animate__fadeInLeft">
                     <div class="front">
                         <img class="project-img" src="images/projectOneFront.JPG" alt="">
                         <p class="project-text">
@@ -223,7 +233,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow animate__fadeInLeft">
                     <div class="front">
                         <img class="project-img" src="images/projectTwoFront.JPG" alt="">
                         <p class="project-text">
@@ -243,7 +253,7 @@
 
 <section class="partners">
     <div class="container">
-        <h2 class="title politics__title wow animate__fadeInLeft">Партнеры</h2>
+        <h2 class="title politics__title wow animate__fadeInDown">Партнеры</h2>
         <div class="partners__slider">
             <div class="slider">
                 <div class="owl-carousel wow animate__slideInRight" id="partners-carousel">
@@ -266,7 +276,7 @@
 
 <section class="politics" id="politics">
     <div class="container">
-        <h2 class="title politics__title wow animate__fadeInLeft">Политики</h2>
+        <h2 class="title politics__title wow animate__fadeInDown">Политики</h2>
         <p class="politics__text wow animate__fadeInRight">
             Планы по достижению целевой модели: политики университета по основным направлениям деятельности
         </p>
@@ -394,7 +404,7 @@
 
 <section class="personalities" id="personalities">
     <div class="container">
-        <h2 class="title politics__title wow animate__fadeInLeft">Состав Управляющего совета</h2>
+        <h2 class="title politics__title wow animate__fadeInDown">Состав Управляющего совета</h2>
         <div class="persons__slider">
             <div class="slider">
                 <div class="owl-loaded owl-theme owl-carousel wow animate__slideInRight" id="persons-carousel">
@@ -514,6 +524,7 @@
 </footer>
 
 
+<script src="js/nav-burger.js"></script>
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
@@ -521,7 +532,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/partners-slider.js"></script>
 <script src="js/persons-slider.js"></script>
-<script src="js/adaptive-nav.js"></script>
 <script src="js/functions.js"></script>
 <script src="js/script.js"></script>
 </body>
