@@ -6,3 +6,25 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+function footer() {
+  const
+      main = document.getElementsByTagName('menu-items')[0],
+      footer = document.getElementsByTagName('nav__footer')[0]
+
+  main.style.paddingBottom = footer.clientHeight + 'px'
+}
+
+window.addEventListener('load', footer);
+window.addEventListener('resize', footer);
+
+/* function logo() {
+  const
+      main = document.getElementsByTagName('nav__footer')[0],
+      logo = document.getElementsByTagName('menu__logo')[0]
+
+  main.style.marginTop = logo. + '10px'
+}
+
+window.addEventListener('load', logo);
+window.addEventListener('resize', logo); */

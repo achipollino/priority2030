@@ -3,7 +3,15 @@ $(document).ready(function(){
         margin: 35,
         nav: false,
         dots: true,
-        items: 4,
+        responsive: {
+          1194: {
+              margin: 50,
+              items: 4
+          },
+          430: {
+              items: 1,
+          },
+      }
     });
 });
 
