@@ -1,19 +1,21 @@
 $(document).ready(function(){
   $("#persons-carousel").owlCarousel({
-      stagePadding: 50,
       margin: 10,
       nav: false,
       dots: true,
-      center: true,
       responsive: {
           0: {
-              items: 1
+              items: 1,
+              stagePadding: 50,
+              center: true,
           },
           600: {
-              items: 2
+              items: 2,
+              stagePadding: 50,
+              center: true,
           },
           1000: {
-              items: 3
+              items: 4
           }
       }
   });
