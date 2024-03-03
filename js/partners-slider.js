@@ -1,18 +1,21 @@
 $(document).ready(function(){
     $("#partners-carousel").owlCarousel({
+        margin: 10,
         loop: true,
         autoplay: true,
         autoplayTimeout: 3000,
-        items: 5,
+        nav: false,
+        dots: true,
         responsive: {
-            1194: {
-                margin: 50,
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
                 items: 5
-            },
-            430: {
-                margin: 50,
-                items: 2,
-            },
+            }
         }
     });
 });

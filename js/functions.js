@@ -7,16 +7,18 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-function footer() {
-  const
-      main = document.getElementsByTagName('menu-items')[0],
-      footer = document.getElementsByTagName('nav__footer')[0]
 
-  main.style.paddingBottom = footer.clientHeight + 'px'
-}
 
-window.addEventListener('load', footer);
-window.addEventListener('resize', footer);
+// function footer() {
+//   const main = document.querySelector('.menu-items');
+//   const footer = document.querySelector('.nav__footer');
+//   if (main && footer) {
+//       main.style.paddingBottom = footer.clientHeight + 'px';
+//   }
+// }
+
+// window.addEventListener('load', footer);
+// window.addEventListener('resize', footer);
 
 /* function logo() {
   const

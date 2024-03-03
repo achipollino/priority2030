@@ -36,10 +36,20 @@ const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu');
 
 if (iconMenu) {
-    const menuBody = document.querySelector('.menu');
     iconMenu.addEventListener("click", function(e) {
         document.body.classList.toggle('_lock');
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
     });
 }
+
+const menuLinks = document.querySelectorAll('.menu-link');
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', function() {
+        menuBody.classList.remove('_active');
+        iconMenu.classList.remove('_active');
+        document.body.classList.remove('_lock');
+    });
+});
+
