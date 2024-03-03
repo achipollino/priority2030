@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $("#partners-carousel").owlCarousel({
-        margin: 10,
         loop: true,
         autoplay: true,
         autoplayTimeout: 3000,
@@ -14,7 +13,8 @@ $(document).ready(function(){
                 items: 2
             },
             1000: {
-                items: 5
+                items: 5,
+                margin: 50,
             }
         }
     });

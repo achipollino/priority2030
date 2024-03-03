@@ -583,7 +583,7 @@ body._lock {
 .partners__slider {
     flex-shrink: 0;
     margin-top: 60px;
-    padding-bottom: 60px;
+    padding: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
