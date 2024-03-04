@@ -99,7 +99,7 @@ body._lock {
 }
 
 .logo-pgups {
-    width: 45px;
+    width: 5dvh;
 }
 
 .logo-pgups img {
@@ -187,7 +187,7 @@ body._lock {
 
     .partner-img {
         display: flex;
-        height: 116px;
+        width: auto;
         align-items: center;
     }
 
