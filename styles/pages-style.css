@@ -19,6 +19,7 @@
 
 img {
     border-radius: 10px;
+    width: 190px;
 }
 
 .header__text {
@@ -124,6 +125,11 @@ h3 {
     padding-top: 20px;
     font-size: 20px;
     color: rgb(234, 10, 42);
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .images {
