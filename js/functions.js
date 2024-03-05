@@ -7,41 +7,16 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-window.onscroll = function() {scrollFunction()};
+$('.back-to-top').click(function () {
+    $('body,html').animate({ scrollTop: 0}, 800);
+});
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
+$(window).scroll(function() {
+    let scrolled = $(window).scrollTop();
+
+    if(scrolled > 550) {
+        $('.back-to-top').addClass('active');
     } else {
-        document.getElementById("myBtn").style.display = "none";
+        $('.back-to-top').removeClass('active');
     }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-
-// function footer() {
-//   const main = document.querySelector('.menu-items');
-//   const footer = document.querySelector('.nav__footer');
-//   if (main && footer) {
-//       main.style.paddingBottom = footer.clientHeight + 'px';
-//   }
-// }
-
-// window.addEventListener('load', footer);
-// window.addEventListener('resize', footer);
-
-/* function logo() {
-  const
-      main = document.getElementsByTagName('nav__footer')[0],
-      logo = document.getElementsByTagName('menu__logo')[0]
-
-  main.style.marginTop = logo. + '10px'
-}
-
-window.addEventListener('load', logo);
-window.addEventListener('resize', logo); */
+});

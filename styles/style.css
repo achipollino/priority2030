@@ -98,14 +98,6 @@ body._lock {
     width: 100%;
 }
 
-.logo-pgups {
-    width: 4.5dvh;
-}
-
-.logo-pgups img {
-    width: 100%;
-}
-
 @media (min-width: 1194px) {
     .menu__icon {
         display: none;
@@ -267,7 +259,33 @@ body._lock {
 
     .card:hover .front {transform: rotateY(180deg);}
     .card:hover .back {transform: rotateY(360deg);}
+
+    .logo-pgups {
+        width: 40px;
     }
+    
+    .logo-pgups img {
+        width: 100%;
+    }
+
+    .back-to-top {
+        border-radius: 50%;
+        position: fixed;
+        bottom: -90px;
+        right: 30px;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+    
+    .back-to-top.active {
+        width: 80px;
+        height: 80px;
+        bottom: 40px;
+        opacity: 1;
+        transition: 0.3s ease all;
+    }
+
+}
 
 /* -------------------- */
 
@@ -537,6 +555,23 @@ body._lock {
 
     .card:hover .front {transform: rotateY(180deg);}
     .card:hover .back {transform: rotateY(360deg);}
+
+    .back-to-top {
+        border-radius: 50%;
+        position: fixed;
+        bottom: -90px;
+        right: 10px;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+    
+    .back-to-top.active {
+        width: 40px;
+        height: 40px;
+        bottom: 30px;
+        opacity: 1;
+        transition: 0.3s ease all;
+    }
 
 }
 
@@ -839,21 +874,4 @@ body._lock {
 
 .owl-dot.active {
     background: rgba(127,127,127, 1);
-}
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    width: 80px;
-}
-
-.arrow-up {
-    width: 80px;
 }
