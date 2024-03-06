@@ -14,7 +14,7 @@ $(document).ready(function(){
             },
             1000: {
                 items: 5,
-                margin: 50,
+                margin: 60,
             }
         }
     });
