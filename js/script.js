@@ -8,4 +8,15 @@ $(document).ready(() => {
         $('.news-items li').removeClass('hidden');
         more.hide();
     });
+
+    $('.programs:not(.development)').hide();
+
+    let filterTitle = $('.filter-title');
+
+    filterTitle.click(function () {
+        filterTitle.removeClass('active');
+        $(this).addClass('active');
+        $('.programs').hide();
+        $('.' + this.id).show();
+    });
 });

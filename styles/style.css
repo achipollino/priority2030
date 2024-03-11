@@ -291,10 +291,9 @@ body._lock {
     }
 
     .back-to-top {
-        border-radius: 50%;
         position: fixed;
-        bottom: -90px;
-        right: 30px;
+        bottom: -100px;
+        right: 10px;
         cursor: pointer;
         transition: 0.1s ease-in all;
     }
@@ -508,8 +507,7 @@ body._lock {
     }
 
     .projects {
-        margin-top: 60px;
-        padding: 89px 0 30px 0;
+        padding: 89px 0px 70px 0px;
     }
 
     .wrap {
@@ -605,6 +603,18 @@ body._lock {
     padding: 89px 0 30px 0;
 }
 
+.program_items {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.program-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 .files {
     max-width: 1024px;
     margin: 0 auto;
@@ -648,6 +658,7 @@ body._lock {
 
 .politics {
     padding: 89px 0 30px 0;
+    background-color: #efefef;
 }
 
 .politics-items {
@@ -745,15 +756,131 @@ body._lock {
     display: none;
 }
 
-/* Department */
+/* Цифровая кафедра */
 
 .department, .department-frame, .personalities {
     margin-top: 60px;
     padding: 89px 0 30px 0;
 }
 
-#priority2030 {
-    padding-top: 40px;
+/* Цифровая трансформация */
+
+.transformation {
+    padding: 89px 0 30px 0;
+    margin: 0;
+    padding: 0;
+}
+
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/* Документы */
+
+.documents {
+    padding: 89px 0 30px 0;
+}
+
+.pdf {
+    width: 30px;
+    fill: rgb(234, 10, 42);
+    flex-shrink: 0;
+}
+
+.zip {
+    width: 30px;
+    fill: #041a72;
+    flex-shrink: 0;
+}
+
+.documents-filter {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.filter-title {
+    font-size: 18px;
+    padding: 10px 40px 10px 40px;
+    transition: all .3s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.filter-title:hover {
+    background-color: rgb(163, 163, 163);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.filter-title.active {
+    background-color: #041a72;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.programs {
+    margin: 0 auto;
+    padding-right: 30px;
+    padding: 40px;
+}
+
+.programs-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.program-documents a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.program-documents a:hover {
+    text-decoration: underline;
+}
+
+.program-documents .application {
+    display: inline;
 }
 
 /* Personalities */
