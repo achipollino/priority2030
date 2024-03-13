@@ -20,3 +20,14 @@ $(window).scroll(function() {
         $('.back-to-top').removeClass('active');
     }
 });
+
+var scrolled=0;  $(document).ready(function(){
+    $("#downClick").on("click" ,function(){
+      scrolled=scrolled+100;
+
+      $("html, body").animate({
+              scrollTop:  $("#program-list").offset().top
+         });
+    });
+
+});

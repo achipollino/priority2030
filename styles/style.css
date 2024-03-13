@@ -1090,11 +1090,11 @@ body._lock {
 .circular-arrow {
     width: 58px;
     height: 58px;
-    border: 2px solid rgb(112, 112, 112);
+    border: 2px solid rgb(167, 167, 167);
     border-radius: 100%;
     position: relative;
+    margin: 0px auto 42px auto;
     animation: down 1.5s infinite;
-    margin: 60px auto 42px auto;
     box-sizing: border-box;
     cursor: pointer;
   }
@@ -1105,8 +1105,8 @@ body._lock {
     left: 17px;
     width: 18px;
     height: 18px;
-    border-left: 2px solid rgb(112, 112, 112);
-    border-bottom: 2px solid rgb(112, 112, 112);
+    border-left: 2px solid rgb(167, 167, 167);
+    border-bottom: 2px solid rgb(167, 167, 167);
     transform: rotate(-45deg);
     cursor: pointer;
   }
@@ -1123,7 +1123,7 @@ body._lock {
   }
 
   .program-list {
-    margin: 200px auto 80px auto;
+    margin: 100px auto 80px auto;
     background-color: rgb(138, 138, 138);
     color: #fff;
     padding: 80px 10px 80px 10px;
