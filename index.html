@@ -105,35 +105,27 @@
 
 <section class="program">
     <div class="container">
-        <p class="program__text wow animate__fadeInRight">
-            Программа развития Петербургского государственного университета
-            <br>путей сообщения Императора Александра I <br>на 2021-2030 годы
-        </p>
-        <div class="program_items">
-            <ul class="politics-items">
-                <li class="program-item wow animate__slideInRight"><img src="images/padlock-unlocked-svgrepo-com.svg" alt=""></li>
-                <li class="program-item wow animate__slideInRight">
-                    <p class="program__text wow animate__fadeInRight">
-                        новые перспективы
-                    </p>
-                </li>
-            </ul>
-            <ul class="politics-items">
-                <li class="program-item wow animate__slideInRight"><img src="images/progress-report-svgrepo-com.svg" alt=""></li>
-                <li class="program-item wow animate__slideInRight">
-                    <p class="program__text wow animate__fadeInRight">
-                        новые векторы развития
-                    </p>
-                </li>
-            </ul>
-            <ul class="politics-items">
-                <li class="program-item wow animate__slideInRight"><img src="images/growing-bar-graph-svgrepo-com.svg" alt=""></li>
-                <li class="program-item wow animate__slideInRight">
-                    <p class="program__text wow animate__fadeInRight">
-                        новые изменения
-                    </p>
-                </li>
-            </ul>
+        <div class="program-about">
+            <h1 class="title program__title wow animate__fadeInDown">О ПРОГРАММЕ</h1>
+        <div class="circular-arrow"><a href="#program-list"></a></div>
+        </div>
+        <div class="program-list" id="program-list">
+            <h2 class="title program__title-list wow animate__fadeInDown">➔ ЦЕННОСТИ</h2>
+            <p class="program__text-first wow animate__fadeInRight">
+                Преемственность лучших традиций транспортного образования, высокая ответственность перед обществом за результаты труда и научных исследований, 
+                уважение к личности, развитие творческого и научного потенциала преподавателей и студентов, готовность к продуктивному сотрудничеству.
+            </p>
+            <h2 class="title program__title-list wow animate__fadeInDown">➔ МИССИЯ</h2>
+            <p class="program__text-first wow animate__fadeInRight">
+                Подготовка инженеров новой формации в уникальной научно-образовательной экосистеме Университета, располагающей научно-производственными и интеллектуальными мощностями 
+                с целью обеспечения успешного и сбалансированного социально-экономического прогресса Российской Федерации и достижения национальных целей. 
+            </p>
+            <h2 class="title program__title-list wow animate__fadeInDown">➔ СТРАТЕГИЧЕСКАЯ ЦЕЛЬ</h2>
+            <p class="program__text-first wow animate__fadeInRight">
+                Лидерство по комплексному предоставлению потребителям высококачественных и конкурентоспособных образовательных и научно-исследовательских услуг для транспортной 
+                и строительной отраслей, подготовка инженерных кадров нового поколения, обеспечение интеллектуального и технологического суверенитета РФ, коммерциализация 
+                научных результатов и лучших управленческих практик при широком сотрудничестве с партнерами, создание инноваций через обмен знаниями и ресурсами.
+            </p>
         </div>
     </div>
 </section>
@@ -185,6 +177,12 @@
                                 alt="Метрополитен">
                         </a>
                     </div>
+                    <div class="partner__card">
+                        <a href="https://niias.ru/" class="wow animate__fadeInLeft" target = "_blank">
+                            <img class="partner-img" src="images/niias.png"
+                                alt="РЖД НИИАС">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -195,8 +193,7 @@
     <div class="container">
         <h2 class="title politics__title wow animate__fadeInDown">Стратегические проекты</h2>
         <p class="program__text wow animate__fadeInRight">
-            Наши цели и стратегия отражены в <br>Программе развития ПГУПС до 2030 года. <br> Ядро нашей программы — три
-            стратегических проекта
+            Ядро нашей программы — три стратегических проекта
         </p>
         <div class="projects-cards">
             <div class="wrap">
@@ -267,22 +264,22 @@
                     Молодежная политика
                 </a>
             </li>
-            <!--<li>
+            <li class="wow animate__slideInRight">
                 <a href="pages/capital-policy.html" class="politics__link">
                     Политика управления человеческим капиталом
                 </a>
             </li>
-            <li>
+            <li class="wow animate__slideInRight">
                 <a href="pages/capital-policy.html" class="politics__link">
                     Кампусная и инфраструктурная политика
                 </a>
-            </li>-->
-            <li>
+            </li>
+            <li class="wow animate__slideInRight">
                 <a href="pages/digital-policy.html" class="politics__link">
                     Политика в области цифровой трансформации
                 </a>
             </li>
-            <li>
+            <li class="wow animate__slideInRight">
                 <a href="pages/open-data-policy.html" class="politics__link">
                     Политика в области открытых данных
                 </a>
@@ -296,7 +293,7 @@
         <video video src="videos/IMG_0473.MOV" type="video/mp4" autoplay muted loop></video>
         <div class="effects"></div>
         <div class="video-bg__content">
-            <h2 class="news__title title wow animate__fadeInDown">Цифровая трансформация</h2>
+            <h2 class="news__title title title-transformation wow animate__fadeInDown">Цифровая трансформация</h2>
             <p class="department__text wow animate__fadeInRight">
                 Построение цифровой экосистемы на базе современной аппаратной и программной инфраструктуры
             </p>
@@ -316,7 +313,7 @@
         <div class="documents-filter">
             <a class="filter-title active" id="development">Программа развития</a>
             <a class="filter-title" id="report">Отчеты</a>
-            <a class="filter-title" id="indicators">Показатели программы</a>
+            <a class="filter-title" id="indicators">Результаты программы</a>
         </div>
         <div class="development programs" id="programs-development">
             <ul class="programs-items">

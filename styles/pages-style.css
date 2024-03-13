@@ -22,6 +22,10 @@ img {
     width: 190px;
 }
 
+.photo {
+    width: 800px;
+}
+
 .header__text {
     font-weight: 700;
     font-size: 16px;
