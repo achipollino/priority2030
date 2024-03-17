@@ -22,10 +22,6 @@ img {
     width: 190px;
 }
 
-.photo {
-    width: 800px;
-}
-
 .header__text {
     font-weight: 700;
     font-size: 16px;
@@ -36,7 +32,7 @@ img {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 950px;
 }
 
 .content-title {
@@ -44,106 +40,36 @@ img {
     margin-bottom: 20px;
 }
 
-.content-text {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-top: 10px;
-}
-
-table {
-    margin: 20px 0;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-caption {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-table tr,
-table td,
-table th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-}
-
-table td {
-    vertical-align: top;
-}
-
-table h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-table {
-    margin: 20px 0;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-caption {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-table tr,
-table td,
-table th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-}
-
-table td {
-    vertical-align: top;
-}
-
-table h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-.contact {
+.strategy-main {
     display: flex;
-    padding: 20px 0;
-    gap: 30px;
 }
 
-.purpose-project {
-    padding-top: 30px;
-    color: rgb(0, 27, 113);
+.strategy-text {
+    padding: 10px 10px 10px 0px;
 }
 
-.role-project {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(0, 27, 113);
+.text {
+    text-align: justify;
+    padding-top: 10px;
 }
 
-h3 {
-    padding-top: 20px;
-    font-size: 20px;
-    color: rgb(234, 10, 42);
+.strategy-img {
+    padding: 0px 5px 5px 10px;
 }
 
-h4 {
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-.images {
-    display: flex;
-    object-fit: cover;
-    gap: 20px;
-    padding: 30px 0;
-}
-
-.images_project1 {
-    width: 380px;
+.priority-img {
+    width: 230px;
     height: auto;
+}
+
+.tasks-filter {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.items {
+    margin: 0 auto;
+    padding-right: 30px;
+    padding: 40px;
 }
