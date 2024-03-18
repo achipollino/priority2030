@@ -763,7 +763,7 @@ body._lock {
 }
 
 .news-items li {
-    max-width: 360px;
+    width: 360px;
     background: white;
     border-radius: 40px;
 }
@@ -799,18 +799,26 @@ body._lock {
     text-align: center;
 }
 
-.more {
+.roundedButton {
     cursor: pointer;
     background: white;
     color: rgb(73, 73, 73);
     border-radius: 40px;
     text-align: center;
-    padding: 18px;
+    padding: 18px 35px;
     box-sizing: border-box;
-    width: 200px;
+    width: auto;
     font-size: 18px;
     border: 0;
     font-weight: 700;
+}
+
+.roundedButton.smallPadding {
+    padding: 18px 15px;
+}
+
+.roundedButton.noPoiner {
+    cursor: default;
 }
 
 .hidden {
