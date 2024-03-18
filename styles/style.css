@@ -53,22 +53,18 @@ body._lock {
 }
 
 .title {
-    font-family: "Russo One";
     font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 35px;
-    letter-spacing: 2px;
     color: rgb(71, 71, 71);
 }
 
 .title-transformation {
-    font-family: "Russo One";
     font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 35px;
-    letter-spacing: 2px;
     color: #fff;
 }
 
@@ -123,7 +119,7 @@ body._lock {
     width: 100%;
 }
 
-@media (min-width: 1194px) {
+@media (min-width: 1720px) {
     .menu__icon {
         display: none;
     }
@@ -370,7 +366,7 @@ body._lock {
 
 /* -------------------- */
 
-@media (max-width: 1194px) {
+@media (max-width: 1720px) {
     .header {
         position: fixed;
         top: 0;
