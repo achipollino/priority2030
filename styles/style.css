@@ -1139,3 +1139,53 @@ body._lock {
     border-radius: 40px;
     width: 1030px;
   }
+
+/* Цифровая кафедра */
+
+.department-media {
+    padding-top: 40px;
+}
+
+.media-title {
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.media dd {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.media dt {
+    margin-bottom: 15px;
+}
+
+.media dt a {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+
+.media dt a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#mail {
+    margin-top: 3px;
+}
+
+.media img {
+    width: 20px;
+}
+

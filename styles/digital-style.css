@@ -32,12 +32,18 @@ img {
 }
 
 .container {
-    max-width: 950px;
+    max-width: 980px;
 }
 
 .content-title {
     font-size: 40px;
     margin-bottom: 20px;
+}
+
+.strategy {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .strategy-main {
@@ -62,14 +68,35 @@ img {
     height: auto;
 }
 
-.tasks-filter {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+/* Задачи */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
 }
 
-.items {
-    margin: 0 auto;
-    padding-right: 30px;
-    padding: 40px;
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
