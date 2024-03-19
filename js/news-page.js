@@ -1,13 +1,13 @@
 let currentPage = 1;
 const newsPerPage = 10;
 let totalPages = 1;
-var scrolled=0;
+let scrolledNewsPages=0;
 
 $(document).ready(function () {
   loadRSS();
 
   $("#prevPage").on("click" ,function(){
-    scrolled=scrolled+100;
+    scrolledNewsPages=scrolledNewsPages+100;
 
     $("html, body").animate({
             scrollTop:  $("#news-title").offset().top
@@ -15,7 +15,7 @@ $(document).ready(function () {
   });
 
   $("#nextPage").on("click" ,function(){
-    scrolled=scrolled+100;
+    scrolledNewsPages=scrolledNewsPages+100;
 
     $("html, body").animate({
             scrollTop:  $("#news-title").offset().top

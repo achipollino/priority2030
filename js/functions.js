@@ -21,9 +21,9 @@ $(window).scroll(function() {
     }
 });
 
-var scrolled=0;  $(document).ready(function(){
+let scrollProgramList=0;  $(document).ready(function(){
     $("#downClick").on("click" ,function(){
-      scrolled=scrolled+100;
+        scrollProgramList=scrollProgramList+100;
 
       $("html, body").animate({
               scrollTop:  $("#program-list").offset().top

@@ -1,4 +1,4 @@
-$.get("https://www.pgups.ru/bitrix/rss.php?ID=81&LANG=s1&TYPE=news&LIMIT=100", function (data) {
+$.get("https://www.pgups.ru/upload/iblock_rss_81.xml", function (data) {
    //https://www.pgups.ru/bitrix/rss.php?ID=81&LANG=s1&TYPE=news&LIMIT=100
    //https://www.pgups.ru/upload/iblock_rss_81.xml
    $(data)
