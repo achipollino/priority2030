@@ -187,8 +187,14 @@ ul {
     transition: 0.7s ease;
 }
 
+.card-image {
+    width: 370px;
+    height: 220px;
+}
+
 .card-img {
     display: block;
+    object-fit: cover;
     border-radius: 0px;
     width: 100%;
 }
