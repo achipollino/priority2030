@@ -283,12 +283,7 @@ ul {
     padding: 20px;
 }
 
-.graviton-img {
-    height: 90px;
-    width: auto;
-}
-
-.ricon-img {
-    height: 90px;
+.complete-logo, .graviton-logo, .ricon-logo {
+    height: 70px;
     width: auto;
 }
