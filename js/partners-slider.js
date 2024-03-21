@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#partners-carousel").owlCarousel({
         loop: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 2000,
         nav: false,
         dots: false,
         responsive: {

@@ -975,11 +975,16 @@ body._lock {
     border-top-right-radius: 35px;
 }
 
+.person-decrtipt {
+    font-size: 14px;
+}
+
 .description {
     padding: 1vw;
 }
 
 .person-name {
+    font-size: 18px;
     padding-bottom: 1vw;
 }
 

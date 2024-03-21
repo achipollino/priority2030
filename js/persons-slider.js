@@ -17,8 +17,8 @@ window.onload = function() {
                 margin: 20,
             },
             1000: {
-                items: 4,
-                margin: 10,
+                items: 5,
+                margin: 40,
             }
         }
     });
