@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/geometria.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/geometria-bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Russo One";
+    src: url("../fonts/RussoOne-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    font-family: Geometria, sans-serif;
+    font-weight: 400;
+    background: #f4f4f6;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container__partners {
+    max-width: 86%;
+    margin: 0 auto;
+}
+
+.section__text {
+    font-size: 24px;
+    margin: 0 150px 30px 150px;
+    text-align: center;
+    line-height: 1.3;
+}

@@ -1,524 +1,372 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Программа развития ПГУПС "Приоритет 2030"</title>
-    <link rel="stylesheet" href="styles/animate.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Программа развития ПГУПС "Приоритет 2030"</title>
+  <link rel="stylesheet" href="styles/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/general.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/slider.css" />
+  <link rel="stylesheet" href="styles/media/media-1720.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <div class="container">
+      <div id="back_to_top" class="back-to-top">
+        <svg role="presentation" width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="50" height="50" rx="50" fill="#ffffff" fill-opacity="0.90" stroke="none"></rect>
+          <path d="M16 22l9-9 9 9" stroke="#343434" stroke-width="1" fill="none" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+          <path d="M25 14.2V35.9" stroke="#343434" stroke-width="1" fill="none" stroke-linecap="round"></path>
+        </svg>
       </div>
-      <div class="container">
-        <div id="back_to_top" class="back-to-top">
-          <svg
-            role="presentation"
-            width="50"
-            height="50"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              width="50"
-              height="50"
-              rx="50"
-              fill="#ffffff"
-              fill-opacity="0.90"
-              stroke="none"
-            ></rect>
-            <path
-              d="M16 22l9-9 9 9"
-              stroke="#343434"
-              stroke-width="1"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-            <path
-              d="M25 14.2V35.9"
-              stroke="#343434"
-              stroke-width="1"
-              fill="none"
-              stroke-linecap="round"
-            ></path>
-          </svg>
-        </div>
-        <div class="logos">
-          <a href="#" class="logo-priority">
-            <img src="images/logo-priority.svg" alt="Логотип приоритета 2030" />
-          </a>
-          <a href="https://www.pgups.ru/" class="logo-pgups">
-            <img src="images/logo.svg" alt="Логотип ПГУПС" />
-          </a>
-        </div>
-        <div class="header__menu">
-          <div class="menu__icon">
-            <svg
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 250.579 250.579"
-              style="enable-background: new 0 0 250.579 250.579"
-              class="menu__img"
-              xml:space="preserve"
-            >
-              <g id="Menu">
-                <path
-                  style="fill-rule: evenodd; clip-rule: evenodd"
-                  d="M22.373,76.068h205.832c12.356,0,22.374-10.017,22.374-22.373
+      <div class="logos">
+        <a href="#" class="logo-priority">
+          <img src="images/logos/logo-priority.svg" alt="Логотип приоритета 2030" />
+        </a>
+        <a href="https://www.pgups.ru/" class="logo-pgups">
+          <img src="images/logos/pgups-logo.svg" alt="Логотип ПГУПС" />
+        </a>
+      </div>
+      <div class="header__menu">
+        <!--<div class="menu__icon">
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 250.579 250.579" style="enable-background: new 0 0 250.579 250.579"
+            class="menu__img" xml:space="preserve">
+            <g id="Menu">
+              <path style="fill-rule: evenodd; clip-rule: evenodd" d="M22.373,76.068h205.832c12.356,0,22.374-10.017,22.374-22.373
                             c0-12.356-10.017-22.373-22.374-22.373H22.373C10.017,31.323,0,41.339,0,53.696C0,66.052,10.017,76.068,22.373,76.068z
                             M228.205,102.916H22.373C10.017,102.916,0,112.933,0,125.289c0,12.357,10.017,22.373,22.373,22.373h205.832
                             c12.356,0,22.374-10.016,22.374-22.373C250.579,112.933,240.561,102.916,228.205,102.916z M228.205,174.51H22.373
                             C10.017,174.51,0,184.526,0,196.883c0,12.356,10.017,22.373,22.373,22.373h205.832c12.356,0,22.374-10.017,22.374-22.373
-                            C250.579,184.526,240.561,174.51,228.205,174.51z"
-                />
-              </g>
-            </svg>
-          </div>
-          <div class="menu">
-            <nav class="menu__nav">
-              <ul class="menu-items">
-                <li>
-                  <a href="#projects" class="menu-link">Проекты</a>
-                </li>
-                <li>
-                  <a href="#politics" class="menu-link">Политики</a>
-                </li>
-                <li>
-                  <a href="#news" class="menu-link">Новости</a>
-                </li>
-                <li>
-                  <a href="#department" class="menu-link">Цифровая кафедра</a>
-                </li>
-                <li>
-                  <a href="#transformation" class="menu-link"
-                    >Цифровая трансформация</a
-                  >
-                </li>
-                <li>
-                  <a href="#documents" class="menu-link">Документы</a>
-                </li>
-                <li>
-                  <a href="#personalities" class="menu-link">Состав совета</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="nav__footer">
-              <div class="nav__texts">
-                <div class="nav__rights blue">
-                  <p class="nav__right">
-                    2024 &copy; Петербургский государственный университет путей
-                    сообщения Императора&nbsp;Александра&nbsp;I
-                  </p>
-                </div>
-                <div class="nav__socials blue">
-                  <a href="https://vk.com/pgups_ru">
-                    <svg
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      data-name="Layer 1"
-                    >
-                      <path
-                        d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"
-                      />
-                    </svg>
-                  </a>
-                  <a href="https://t.me/pgups_2020">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="promo">
-      <img src="images/photo_2024-03-04_09-55-41.jpg" alt="" />
-    </section>
-
-    <section class="program">
-      <div class="container">
-        <div class="program-about">
-          <h1 class="title program__title wow animate__fadeInDown">
-            О ПРОГРАММЕ
-          </h1>
-          <p class="program__text wow animate__fadeInRight">
-            Первое транспортное учебное заведение России <br />с более чем
-            210-летней историей и богатейшими <br />традициями качественного
-            образования
-          </p>
-          <div class="action">
-            <button class="circular-arrow" id="downClick"></button>
-          </div>
-        </div>
-        <div id="program-list"></div>
-        <div class="program-list">
-          <h2 class="title program__title-list wow animate__fadeInDown">
-            ➔ ЦЕННОСТИ
-          </h2>
-          <p class="program__text-first wow animate__fadeInRight">
-            Преемственность лучших традиций транспортного образования, высокая
-            ответственность перед обществом за результаты труда и научных
-            исследований, уважение к личности, развитие творческого и научного
-            потенциала преподавателей и студентов, готовность к продуктивному
-            сотрудничеству.
-          </p>
-          <h2 class="title program__title-list wow animate__fadeInDown">
-            ➔ МИССИЯ
-          </h2>
-          <p class="program__text-first wow animate__fadeInRight">
-            Подготовка инженеров новой формации в уникальной
-            научно-образовательной экосистеме Университета, располагающей
-            научно-производственными и интеллектуальными мощностями с целью
-            обеспечения успешного и сбалансированного социально-экономического
-            прогресса Российской Федерации и достижения национальных целей.
-          </p>
-          <h2 class="title program__title-list wow animate__fadeInDown">
-            ➔ СТРАТЕГИЧЕСКАЯ ЦЕЛЬ
-          </h2>
-          <p class="program__text-first wow animate__fadeInRight">
-            Лидерство по комплексному предоставлению потребителям
-            высококачественных и конкурентоспособных образовательных и
-            научно-исследовательских услуг для транспортной и строительной
-            отраслей, подготовка инженерных кадров нового поколения, обеспечение
-            интеллектуального и технологического суверенитета РФ,
-            коммерциализация научных результатов и лучших управленческих практик
-            при широком сотрудничестве с партнерами, создание инноваций через
-            обмен знаниями и ресурсами.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="partners">
-      <div class="container__partners">
-        <h2 class="title politics__title wow animate__fadeInDown">Партнеры</h2>
-        <div class="partners__slider">
-          <div class="slider">
-            <div
-              class="owl-loaded owl-theme owl-carousel wow animate__slideInRight"
-              id="partners-carousel"
-            >
-              <div class="partner__card">
-                <a
-                  href="https://tmholding.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/TMH-logo.png"
-                    alt="Transmashholding"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://metrostr.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/Метрострой_Северной_Столицы.svg.png"
-                    alt="Метрострой Северной Столицы"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://www.rzd.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/Российские_железные_дороги.png"
-                    alt="Российские Железные Дороги"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://xn--80aeci3adnpk.xn--p1ai/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/konsortsium_logo_1x.png"
-                    alt="Рос Маглев"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="http://compositgroup74.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/logo_compositgroup_chel.png"
-                    alt="Композит Групп Челябинск"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://www.agiogk.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/p1g6znlocq3ojj3h2gs2xjq0fy5lq4r3.png"
-                    alt="Рунит"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://metro.spb.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/Spb_metro_logo.svg"
-                    alt="Метрополитен"
-                  />
-                </a>
-              </div>
-              <div class="partner__card">
-                <a
-                  href="https://niias.ru/"
-                  class="wow animate__fadeInLeft"
-                  target="_blank"
-                >
-                  <img
-                    class="partner-img"
-                    src="images/niias.png"
-                    alt="РЖД НИИАС"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="container">
-        <h2 class="title politics__title wow animate__fadeInDown">
-          Стратегические проекты
-        </h2>
-        <p class="program__text wow animate__fadeInRight">
-          Ядро нашей программы — три стратегических проекта
-        </p>
-        <div class="projects-cards">
-          <div class="wrap">
-            <div class="card wow animate__fadeInLeft">
-              <div class="front">
-                <img
-                  class="project-img"
-                  src="images/vertushka_ekosistema_site.jpg"
-                  alt=""
-                />
-                <p class="project-text">
-                  Безопасная экосистема интеллектуальной транспортной
-                  инфраструктуры
+                            C250.579,184.526,240.561,174.51,228.205,174.51z" />
+            </g>
+          </svg>
+        </div>-->
+        <div class="menu">
+          <nav class="menu__nav">
+            <ul class="menu-items">
+              <li>
+                <a href="#news" class="menu-link">Новости</a>
+              </li>
+              <li>
+                <a href="#politics" class="menu-link">Политики</a>
+              </li>
+              <li>
+                <a href="#department" class="menu-link">Цифровая кафедра</a>
+              </li>
+              <li>
+                <a href="#projects" class="menu-link">Проекты</a>
+              </li>
+              <li>
+                <a href="#documents" class="menu-link">Документы</a>
+              </li>
+              <li>
+                <a href="#personalities" class="menu-link">Состав совета</a>
+              </li>
+              <li>
+                <a href="#transformation" class="menu-link">Результаты</a>
+              </li>
+              <li>
+                <a href="#transformation" class="menu-link">Для обучающихся</a>
+              </li>
+            </ul>
+          </nav>
+          <!--<div class="nav__footer">
+            <div class="nav__texts">
+              <div class="nav__rights blue">
+                <p class="nav__right">
+                  2024 &copy; Петербургский государственный университет путей
+                  сообщения Императора&nbsp;Александра&nbsp;I
                 </p>
               </div>
-              <div class="back">
-                <a href="pages/projects/secure-ecosystem.html" class="right-arrow">
-                  <img src="images/right-arrow.svg" alt="Узнать больше" />
-                </a>
-              </div>
-            </div>
-            <div class="card wow animate__fadeInLeft">
-              <div class="front">
-                <img
-                  class="project-img"
-                  src="images/vertushka_materials_site.jpg"
-                  alt=""
-                />
-                <p class="project-text">
-                  Новые технологии и материалы в строительстве
-                </p>
-              </div>
-              <div class="back">
-                <a href="pages/projects/techno-material.html" class="right-arrow">
-                  <img src="images/right-arrow.svg" alt="Узнать больше" />
-                </a>
-              </div>
-            </div>
-            <div class="card wow animate__fadeInLeft">
-              <div class="front">
-                <img
-                  class="project-img"
-                  src="images/vertushka_hard_site.jpg"
-                  alt=""
-                />
-                <p class="project-text">
-                  Тяжеловесное<br />
-                  движение - драйвер экономики России
-                </p>
-              </div>
-              <div class="back">
-                <a href="pages/projects/hard-movement.html" class="right-arrow">
-                  <img src="images/right-arrow.svg" alt="Узнать больше" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="politics" id="politics">
-      <div class="container">
-        <h2 class="title politics__title wow animate__fadeInDown">Политики</h2>
-        <p class="politics__text wow animate__fadeInRight">
-          Планы по достижению целевой модели: политики университета по основным
-          направлениям деятельности
-        </p>
-        <ul class="politics-items">
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/educational-policy.html" class="politics__link">
-              Образовательная политика
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/science-policy.html" class="politics__link">
-              Научно-исследовательская политика и политика в области инноваций и
-              коммерциализации разработок
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/youth-policy.html" class="politics__link">
-              Молодежная политика
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/capital-policy.html" class="politics__link">
-              Политика управления человеческим капиталом
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/infrastructure-policy.html" class="politics__link">
-              Кампусная и инфраструктурная политика
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/digital-policy.html" class="politics__link">
-              Политика в области цифровой трансформации
-            </a>
-          </li>
-          <li class="wow animate__slideInRight">
-            <a href="pages/policy/open-data-policy.html" class="politics__link">
-              Политика в области открытых данных
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="transformation" id="transformation">
-      <div class="video-bg">
-        <video
-          video
-          src="videos/IMG_0473.MOV"
-          type="video/mp4"
-          autoplay
-          muted
-          loop
-        ></video>
-        <div class="effects"></div>
-        <div class="video-bg__content">
-          <h2
-            class="news__title title title-transformation wow animate__fadeInDown"
-          >
-            Цифровая трансформация
-          </h2>
-          <p class="department__text wow animate__fadeInRight">
-            Построение цифровой экосистемы на базе современной аппаратной и
-            программной инфраструктуры
-          </p>
-          <div class="action">
-            <button class="roundedButton">
-              <a href="pages/digital-transformation/digital-transformation.html" class="roundedButton"
-                >Подробнее</a
-              >
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="documents" id="documents">
-      <div class="container">
-        <h2
-          class="title politics__title wow animate__fadeInDown"
-          style="visibility: visible; animation-name: fadeInDown"
-        >
-          Документы
-        </h2>
-        <p class="politics__text wow animate__fadeInRight">
-          Программа развития на 2021-2030 годы и ключевые результаты развития в
-          предыдущий период
-        </p>
-        <div class="documents-filter">
-          <a class="filter-title active" id="development">Программа развития</a>
-          <a class="filter-title" id="report">Отчеты</a>
-          <a class="filter-title" id="indicators">Результаты программы</a>
-        </div>
-        <div class="development programs" id="programs-development">
-          <ul class="programs-items">
-            <li class="program-documents">
-              <a href="files/Programma-razvitiya-2023.pdf" target="_blank">
-                <svg
-                  class="pdf"
-                  version="1.1"
-                  id="_x32_"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 512 512"
-                  xml:space="preserve"
-                >
-                  <g>
+              <div class="nav__socials blue">
+                <a href="https://vk.com/pgups_ru">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
                     <path
-                      class="st0"
-                      d="M347.746,346.204c-8.398-0.505-28.589,0.691-48.81,4.533c-11.697-11.839-21.826-26.753-29.34-39.053
+                      d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z" />
+                  </svg>
+                </a>
+                <a href="https://t.me/pgups_2020">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="promo">
+    <img src="images/banners/priotitet2030-banner.jpg" alt="" />
+  </section>
+
+  <section class="program">
+    <div class="container">
+      <div class="program-about">
+        <h1 class="title program__title wow animate__fadeInDown">
+          О ПРОГРАММЕ
+        </h1>
+        <p class="section__text wow animate__fadeInRight">
+          Первое транспортное учебное заведение России <br />с более чем
+          210-летней историей и богатейшими <br />традициями качественного
+          образования
+        </p>
+        <div class="action">
+          <button class="circular-arrow" id="downClick"></button>
+        </div>
+      </div>
+      <div id="program-list"></div>
+      <div class="program-list">
+        <h2 class="title program__title-list wow animate__fadeInDown">
+          ➔ ЦЕННОСТИ
+        </h2>
+        <p class="program-descript__text wow animate__fadeInRight">
+          Преемственность лучших традиций транспортного образования, высокая
+          ответственность перед обществом за результаты труда и научных
+          исследований, уважение к личности, развитие творческого и научного
+          потенциала преподавателей и студентов, готовность к продуктивному
+          сотрудничеству.
+        </p>
+        <h2 class="title program__title-list wow animate__fadeInDown">
+          ➔ МИССИЯ
+        </h2>
+        <p class="program-descript__text wow animate__fadeInRight">
+          Подготовка инженеров новой формации в уникальной
+          научно-образовательной экосистеме Университета, располагающей
+          научно-производственными и интеллектуальными мощностями с целью
+          обеспечения успешного и сбалансированного социально-экономического
+          прогресса Российской Федерации и достижения национальных целей.
+        </p>
+        <h2 class="title program__title-list wow animate__fadeInDown">
+          ➔ СТРАТЕГИЧЕСКАЯ ЦЕЛЬ
+        </h2>
+        <p class="program-descript__text wow animate__fadeInRight">
+          Лидерство по комплексному предоставлению потребителям
+          высококачественных и конкурентоспособных образовательных и
+          научно-исследовательских услуг для транспортной и строительной
+          отраслей, подготовка инженерных кадров нового поколения, обеспечение
+          интеллектуального и технологического суверенитета РФ,
+          коммерциализация научных результатов и лучших управленческих практик
+          при широком сотрудничестве с партнерами, создание инноваций через
+          обмен знаниями и ресурсами.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="title politics__title wow animate__fadeInDown">
+        Стратегические проекты
+      </h2>
+      <p class="section__text wow animate__fadeInRight">
+        Ядро нашей программы — три стратегических проекта
+      </p>
+      <div class="projects-cards">
+        <div class="wrap">
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/secure-ecosystem/vertushka_ekosistema_site.jpg" alt="" />
+              <p class="project-text">
+                Безопасная экосистема интеллектуальной транспортной
+                инфраструктуры
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/projects/secure-ecosystem.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
+              </a>
+            </div>
+          </div>
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/techno-material/vertushka_materials_site.jpg" alt="" />
+              <p class="project-text">
+                Новые технологии и материалы в строительстве
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/projects/techno-material.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
+              </a>
+            </div>
+          </div>
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/hard-movement/vertushka_hard_site.jpg" alt="" />
+              <p class="project-text">
+                Тяжеловесное<br />
+                движение - драйвер экономики России
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/projects/hard-movement.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners">
+    <div class="container__partners">
+      <h2 class="title politics__title wow animate__fadeInDown">Партнеры</h2>
+      <div class="partners__slider">
+        <div class="slider">
+          <div class="owl-loaded owl-theme owl-carousel wow animate__slideInRight" id="partners-carousel">
+            <div class="partner__card">
+              <a href="https://tmholding.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/TMH-logo.png" alt="Transmashholding" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://metrostr.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/metrostroy.png"
+                  alt="Метрострой Северной Столицы" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://www.rzd.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/rzhd.png" alt="Российские Железные Дороги" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://xn--80aeci3adnpk.xn--p1ai/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/ros-maglev.png" alt="Рос Маглев" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="http://compositgroup74.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/composit-group_chel.png" alt="Композит Групп Челябинск" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://www.agiogk.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/runit.png" alt="Рунит" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://metro.spb.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/Spb_metro_logo.svg" alt="Метрополитен" />
+              </a>
+            </div>
+            <div class="partner__card">
+              <a href="https://niias.ru/" class="wow animate__fadeInLeft" target="_blank">
+                <img class="partner-img" src="images/partners/niias.png" alt="РЖД НИИАС" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="politics" id="politics">
+    <div class="container">
+      <h2 class="title politics__title wow animate__fadeInDown">Политики</h2>
+      <p class="section__text wow animate__fadeInRight">
+        Планы по достижению целевой модели:<br> политики университета по основным<br>
+        направлениям деятельности
+      </p>
+      <ul class="politics-items">
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/educational-policy.html" class="politics__link">
+            Образовательная политика
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/science-policy.html" class="politics__link">
+            Научно-исследовательская политика и политика в области инноваций и
+            коммерциализации разработок
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/youth-policy.html" class="politics__link">
+            Молодежная политика
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/capital-policy.html" class="politics__link">
+            Политика управления человеческим капиталом
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/infrastructure-policy.html" class="politics__link">
+            Кампусная и инфраструктурная политика
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/digital-policy.html" class="politics__link">
+            Политика в области цифровой трансформации
+          </a>
+        </li>
+        <li class="wow animate__slideInRight">
+          <a href="pages/policy/open-data-policy.html" class="politics__link">
+            Политика в области открытых данных
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="transformation" id="transformation">
+    <div class="video-bg">
+      <video video src="videos/IMG_0473.MOV" type="video/mp4" autoplay muted loop></video>
+      <div class="effects"></div>
+      <div class="video-bg__content">
+        <h2 class="news__title title title-transformation wow animate__fadeInDown">
+          Цифровая трансформация
+        </h2>
+        <p class="section__text wow animate__fadeInRight">
+          Построение цифровой экосистемы на базе современной аппаратной и
+          программной инфраструктуры
+        </p>
+        <div class="action">
+          <button class="roundedButton">
+            <a href="pages/digital-transformation/digital-transformation.html" class="roundedButton">Подробнее</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="documents" id="documents">
+    <div class="container">
+      <h2 class="title politics__title wow animate__fadeInDown" style="visibility: visible; animation-name: fadeInDown">
+        Документы
+      </h2>
+      <p class="section__text wow animate__fadeInRight">
+        Программа развития на 2021-2030 годы<br> и ключевые результаты развития в
+        предыдущий период
+      </p>
+      <div class="documents__list">
+        <ul class="programs-items">
+          <li class="program-documents">
+            <a href="files/Programma-razvitiya-2023.pdf" target="_blank">
+              <svg class="pdf" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <path class="st0" d="M347.746,346.204c-8.398-0.505-28.589,0.691-48.81,4.533c-11.697-11.839-21.826-26.753-29.34-39.053
                                     c24.078-69.232,8.829-88.91-11.697-88.91c-16.119,0-24.167,17.011-22.376,35.805c0.906,9.461,8.918,29.34,18.78,48.223
                                     c-6.05,15.912-16.847,42.806-27.564,62.269c-12.545,3.812-23.305,8.048-31.027,11.622c-38.465,17.888-41.556,41.773-33.552,51.894
                                     c15.197,19.226,47.576,2.638,80.066-55.468c22.243-6.325,51.508-14.752,54.146-14.752c0.304,0,0.721,0.097,1.204,0.253
@@ -530,11 +378,8 @@
                                     C251.627,282.27,245.815,269.748,244.923,258.571z M248.505,363.697c4.912-8.064,17.442-40.702,17.442-40.702
                                     c2.683,4.926,23.699,29.956,23.699,29.956S257.438,360.123,248.505,363.697z M345.999,377.995
                                     c-13.414-1.768-36.221-17.895-36.221-17.895c-3.128-1.337,24.992-5.157,35.79-4.466c13.875,0.9,18.794,6.718,18.794,12.53
-                                    C364.362,373.982,359.443,379.787,345.999,377.995z"
-                    />
-                    <path
-                      class="st0"
-                      d="M461.336,107.66l-98.34-98.348L353.683,0H340.5H139.946C92.593,0,54.069,38.532,54.069,85.901v6.57H41.353
+                                    C364.362,373.982,359.443,379.787,345.999,377.995z" />
+                  <path class="st0" d="M461.336,107.66l-98.34-98.348L353.683,0H340.5H139.946C92.593,0,54.069,38.532,54.069,85.901v6.57H41.353
                                     v102.733h12.716v230.904c0,47.361,38.525,85.893,85.878,85.893h244.808c47.368,0,85.893-38.532,85.893-85.893V130.155v-13.176
                                     L461.336,107.66z M384.754,480.193H139.946c-29.875,0-54.086-24.212-54.086-54.086V195.203h157.31V92.47H85.86v-6.57
                                     c0-29.882,24.211-54.102,54.086-54.102H332.89v60.894c0,24.888,20.191,45.065,45.079,45.065h60.886v288.349
@@ -550,601 +395,526 @@
                                     C135.368,167.61,134.685,166.926,134.685,166.086z M214.269,137.981c0.84,0,1.523,0.684,1.523,1.524v6.48
                                     c0,0.84-0.683,1.524-1.523,1.524h-18.244v18.579c0,0.84-0.684,1.523-1.524,1.523h-7.209c-0.84,0-1.523-0.683-1.523-1.523v-47.554
                                     c0-0.839,0.683-1.524,1.523-1.524h27.653c0.839,0,1.524,0.684,1.524,1.524v6.48c0,0.84-0.684,1.524-1.524,1.524h-18.92v11.444
-                                    H214.269z"
-                    />
-                    <path
-                      class="st0"
-                      d="M109.418,137.706c1.212-1.092,1.798-2.645,1.798-4.749c0-2.096-0.587-3.649-1.798-4.741
-                                    c-1.263-1.13-2.928-1.68-5.098-1.68h-5.975v12.848h5.975C106.489,139.385,108.155,138.836,109.418,137.706z"
-                    />
-                    <path
-                      class="st0"
-                      d="M156.139,157.481c1.13-0.424,2.103-1.107,2.973-2.088c0.944-1.055,1.538-2.571,1.769-4.511
+                                    H214.269z" />
+                  <path class="st0"
+                    d="M109.418,137.706c1.212-1.092,1.798-2.645,1.798-4.749c0-2.096-0.587-3.649-1.798-4.741
+                                    c-1.263-1.13-2.928-1.68-5.098-1.68h-5.975v12.848h5.975C106.489,139.385,108.155,138.836,109.418,137.706z" />
+                  <path class="st0" d="M156.139,157.481c1.13-0.424,2.103-1.107,2.973-2.088c0.944-1.055,1.538-2.571,1.769-4.511
                                     c0.26-2.208,0.386-5.091,0.386-8.569c0-3.485-0.126-6.369-0.386-8.569c-0.231-1.946-0.825-3.462-1.762-4.51
                                     c-0.869-0.982-1.873-1.679-2.972-2.089c-1.182-0.453-2.534-0.676-4.042-0.676h-7.164v31.68h7.164
-                                    C153.605,158.15,154.965,157.927,156.139,157.481z"
-                    />
-                  </g>
-                </svg>
-                <span>
-                  Программа развития университета на 2021–2030 годы в рамках
-                  реализации программы стратегического академического лидерства
-                  «Приоритет-2030».
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="report programs" id="programs-report">
-          <ul class="programs-items">
-            <li class="program-documents">
-              <a href="files/Otchet2021.zip" download>
-                <svg
-                  class="zip"
-                  version="1.1"
-                  id="_x32_"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 512 512"
-                  xml:space="preserve"
-                >
-                  <g>
-                    <path
-                      class="st0"
-                      d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
+                                    C153.605,158.15,154.965,157.927,156.139,157.481z" />
+                </g>
+              </svg>
+              <span>
+                Программа развития университета на 2021–2030 годы в рамках
+                реализации программы стратегического академического лидерства
+                «Приоритет-2030».
+              </span>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/Otchet-2023.zip" download>
+              <svg class="zip" height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <path class="st0"
+                    d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
                             c0,47.36,38.528,85.895,85.895,85.895h244.811c47.36,0,85.889-38.535,85.889-85.895V85.896C464.298,38.528,425.769,0,378.409,0z
                              M432.493,426.105c0,29.877-24.214,54.091-54.084,54.091H133.598c-29.877,0-54.091-24.214-54.091-54.091V160.591h83.717
-                            c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z"
-                    />
-                    <path
-                      class="st0"
-                      d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
+                            c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z" />
+                  <path class="st0" d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
                             c-5.977,0-9.506,3.805-9.506,8.965c0,5.159,3.529,8.825,9.506,8.825h29.339v0.272l-33.958,50.119
                             c-4.615,6.661-6.382,9.915-6.382,14.669c0,5.167,3.666,9.51,10.46,9.51h44.959c6.109,0,9.506-3.666,9.506-8.826
-                            c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z"
-                    />
-                    <path
-                      class="st0"
-                      d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
-                            c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z"
-                    />
-                    <path
-                      class="st0"
-                      d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
+                            c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z" />
+                  <path class="st0"
+                    d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
+                            c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z" />
+                  <path class="st0"
+                    d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
                             c5.704,0,9.914-4.21,9.914-10.599v-22.406c0-0.545,0.272-0.817,0.817-0.817h16.433c20.102,0,32.192-12.226,32.192-29.612
                             C355.535,264.871,343.582,252.785,323.344,252.785z M322.122,294.888h-15.211c-0.545,0-0.817-0.272-0.817-0.81v-23.23
-                            c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z"
-                    />
-                  </g>
-                </svg>
-                Ежегодный отчёт о результатах реализации программы развития
-                университета в рамках реализации программы стратегического
-                академического лидерства «Приоритет-2030» в 2021 году
-              </a>
-            </li>
-            <li class="program-documents">
-              <a href="files/Otchet2022(1-5).ZIP" download>
-                <svg
-                  class="zip"
-                  version="1.1"
-                  id="_x32_"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 512 512"
-                  xml:space="preserve"
-                >
-                  <g>
-                    <path
-                      class="st0"
-                      d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
-                                    c0,47.36,38.528,85.895,85.895,85.895h244.811c47.36,0,85.889-38.535,85.889-85.895V85.896C464.298,38.528,425.769,0,378.409,0z
-                                     M432.493,426.105c0,29.877-24.214,54.091-54.084,54.091H133.598c-29.877,0-54.091-24.214-54.091-54.091V160.591h83.717
-                                    c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z"
-                    />
-                    <path
-                      class="st0"
-                      d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
-                                    c-5.977,0-9.506,3.805-9.506,8.965c0,5.159,3.529,8.825,9.506,8.825h29.339v0.272l-33.958,50.119
-                                    c-4.615,6.661-6.382,9.915-6.382,14.669c0,5.167,3.666,9.51,10.46,9.51h44.959c6.109,0,9.506-3.666,9.506-8.826
-                                    c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z"
-                    />
-                    <path
-                      class="st0"
-                      d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
-                                    c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z"
-                    />
-                    <path
-                      class="st0"
-                      d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
-                                    c5.704,0,9.914-4.21,9.914-10.599v-22.406c0-0.545,0.272-0.817,0.817-0.817h16.433c20.102,0,32.192-12.226,32.192-29.612
-                                    C355.535,264.871,343.582,252.785,323.344,252.785z M322.122,294.888h-15.211c-0.545,0-0.817-0.272-0.817-0.81v-23.23
-                                    c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z"
-                    />
-                  </g>
-                </svg>
-                <span>
-                  Ежегодный отчёт о результатах реализации программы развития
-                  университета в рамках реализации программы стратегического
-                  академического лидерства «Приоритет-2030» в 2022 году;
-                  Приложения 1-5,
-                </span>
-              </a>
-              <a href="files/Otchet2022(6).ZIP" download class="application">
-                Приложения 6,
-              </a>
-              <a href="files/Otchet2022(7).ZIP" download class="application">
-                Приложения 7
-              </a>
-            </li>
-            <li class="program-documents">
-              <a href="files/Otchet-2023.zip" download>
-                <svg
-                  class="zip"
-                  version="1.1"
-                  id="_x32_"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 512 512"
-                  xml:space="preserve"
-                >
-                  <g>
-                    <path
-                      class="st0"
-                      d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
-                            c0,47.36,38.528,85.895,85.895,85.895h244.811c47.36,0,85.889-38.535,85.889-85.895V85.896C464.298,38.528,425.769,0,378.409,0z
-                             M432.493,426.105c0,29.877-24.214,54.091-54.084,54.091H133.598c-29.877,0-54.091-24.214-54.091-54.091V160.591h83.717
-                            c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z"
-                    />
-                    <path
-                      class="st0"
-                      d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
-                            c-5.977,0-9.506,3.805-9.506,8.965c0,5.159,3.529,8.825,9.506,8.825h29.339v0.272l-33.958,50.119
-                            c-4.615,6.661-6.382,9.915-6.382,14.669c0,5.167,3.666,9.51,10.46,9.51h44.959c6.109,0,9.506-3.666,9.506-8.826
-                            c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z"
-                    />
-                    <path
-                      class="st0"
-                      d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
-                            c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z"
-                    />
-                    <path
-                      class="st0"
-                      d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
-                            c5.704,0,9.914-4.21,9.914-10.599v-22.406c0-0.545,0.272-0.817,0.817-0.817h16.433c20.102,0,32.192-12.226,32.192-29.612
-                            C355.535,264.871,343.582,252.785,323.344,252.785z M322.122,294.888h-15.211c-0.545,0-0.817-0.272-0.817-0.81v-23.23
-                            c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z"
-                    />
-                  </g>
-                </svg>
+                            c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z" />
+                </g>
+              </svg>
+              <span>
                 Ежегодный отчёт о результатах реализации программы развития
                 университета в рамках реализации программы стратегического
                 академического лидерства «Приоритет-2030» в 2023 году
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="indicators programs" id="programs-indicators">
-          <ul class="programs-items">
-            <li class="program-documents"></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="news" id="news">
-      <div class="container">
-        <h2 class="news__title title wow animate__fadeInDown">Новости</h2>
-        <ul class="news-items">
-          <li class="wow animate__fadeInLeft">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185937" class="news__link">
-              <img src="images/news/1.jpg" alt="">
-              <h3 class="news-title">В режиме конструктивного диалога</h3>
-              <span class="news__date">14.03.2024</span>
+              </span>
             </a>
           </li>
-          <li class="wow animate__fadeInLeft animate__fast">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185931" class="news__link">
-              <img src="images/news/2.jpg" alt="">
-              <h3 class="news-title">Растить кадры для страны</h3>
-              <span class="news__date">14.03.2024</span>
+          <li class="program-documents">
+            <a href="files/Otchet2022(1-5).ZIP" download>
+              <svg class="zip" height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <path class="st0"
+                    d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
+                                    c0,47.36,38.528,85.895,85.895,85.895h244.811c47.36,0,85.889-38.535,85.889-85.895V85.896C464.298,38.528,425.769,0,378.409,0z
+                                     M432.493,426.105c0,29.877-24.214,54.091-54.084,54.091H133.598c-29.877,0-54.091-24.214-54.091-54.091V160.591h83.717
+                                    c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z" />
+                  <path class="st0" d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
+                                    c-5.977,0-9.506,3.805-9.506,8.965c0,5.159,3.529,8.825,9.506,8.825h29.339v0.272l-33.958,50.119
+                                    c-4.615,6.661-6.382,9.915-6.382,14.669c0,5.167,3.666,9.51,10.46,9.51h44.959c6.109,0,9.506-3.666,9.506-8.826
+                                    c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z" />
+                  <path class="st0"
+                    d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
+                                    c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z" />
+                  <path class="st0"
+                    d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
+                                    c5.704,0,9.914-4.21,9.914-10.599v-22.406c0-0.545,0.272-0.817,0.817-0.817h16.433c20.102,0,32.192-12.226,32.192-29.612
+                                    C355.535,264.871,343.582,252.785,323.344,252.785z M322.122,294.888h-15.211c-0.545,0-0.817-0.272-0.817-0.81v-23.23
+                                    c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z" />
+                </g>
+              </svg>
+              <span>
+                Ежегодный отчёт о результатах реализации программы развития
+                университета в рамках реализации программы стратегического
+                академического лидерства «Приоритет-2030» в 2022 году;
+                Приложения 1-5,
+              </span>
+            </a>
+            <a href="files/Otchet2022(6).ZIP" download class="application">
+              Приложения 6,
+            </a>
+            <a href="files/Otchet2022(7).ZIP" download class="application">
+              Приложения 7
             </a>
           </li>
-          <li class="wow animate__fadeInLeft animate__faster">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185905" class="news__link">
-              <img src="images/news/3.jpg" alt="">
-              <h3 class="news-title">Приглашаем принять участие во второй Международной научно-технической конференции "Проблемы безопасности и эффективности технических систем"</h3>
-              <span class="news__date">12.03.2024</span>
+          <li class="program-documents">
+            <a href="files/Otchet2021.zip" download>
+              <svg class="zip" height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <path class="st0"
+                    d="M378.409,0H208.294h-13.176l-9.314,9.314L57.016,138.102l-9.314,9.314v13.176v265.514
+                            c0,47.36,38.528,85.895,85.895,85.895h244.811c47.36,0,85.889-38.535,85.889-85.895V85.896C464.298,38.528,425.769,0,378.409,0z
+                             M432.493,426.105c0,29.877-24.214,54.091-54.084,54.091H133.598c-29.877,0-54.091-24.214-54.091-54.091V160.591h83.717
+                            c24.885,0,45.07-20.178,45.07-45.07V31.804h170.115c29.87,0,54.084,24.214,54.084,54.092V426.105z" />
+                  <path class="st0" d="M207.466,276.147c4.755-6.926,5.841-9.782,5.841-13.853c0-5.166-3.534-9.509-10.46-9.509h-43.464
+                            c-5.977,0-9.506,3.805-9.506,8.965c0,5.159,3.529,8.825,9.506,8.825h29.339v0.272l-33.958,50.119
+                            c-4.615,6.661-6.382,9.915-6.382,14.669c0,5.167,3.666,9.51,10.46,9.51h44.959c6.109,0,9.506-3.666,9.506-8.826
+                            c0-5.166-3.397-8.965-9.506-8.965h-30.834v-0.272L207.466,276.147z" />
+                  <path class="st0"
+                    d="M247.684,251.968c-5.841,0-10.051,4.21-10.051,10.592v72.804c0,6.388,4.21,10.599,10.051,10.599
+                            c5.704,0,9.915-4.21,9.915-10.599V262.56C257.599,256.178,253.388,251.968,247.684,251.968z" />
+                  <path class="st0"
+                    d="M323.344,252.785h-28.523c-5.432,0-8.693,3.533-8.693,8.825v73.754c0,6.388,4.21,10.599,10.051,10.599
+                            c5.704,0,9.914-4.21,9.914-10.599v-22.406c0-0.545,0.272-0.817,0.817-0.817h16.433c20.102,0,32.192-12.226,32.192-29.612
+                            C355.535,264.871,343.582,252.785,323.344,252.785z M322.122,294.888h-15.211c-0.545,0-0.817-0.272-0.817-0.81v-23.23
+                            c0-0.545,0.272-0.816,0.817-0.816h15.211c8.42,0,13.448,5.027,13.448,12.498C335.569,290,330.542,294.888,322.122,294.888z" />
+                </g>
+              </svg>
+              Ежегодный отчёт о результатах реализации программы развития
+              университета в рамках реализации программы стратегического
+              академического лидерства «Приоритет-2030» в 2021 году
             </a>
           </li>
-          <li class="hidden">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185781" class="news__link">
-              <img src="images/news/4.jpg" alt="">
-              <h3 class="news-title">«Приоритет 2030» в действии</h3>
-              <span class="news__date">29.02.2024</span>
-            </a>
-          </li>
-          <li class="hidden">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185739" class="news__link">
-              <img src="images/news/5.jpg" alt="">
-              <h3 class="news-title">Наука всему голова!</h3>
-              <span class="news__date">22.02.2024</span>
-            </a>
-          </li>
-          <li class="hidden">
-            <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185665" class="news__link">
-              <img src="images/news/6.jpg" alt="">
-              <h3 class="news-title">А.А. Зайцев. Человек, инженер, учёный, министр...</h3>
-              <span class="news__date">14.02.2024</span>
-            </a>
-          </li>
-          
         </ul>
-        <div class="action">
-          <button class="roundedButton moreNews">Показать еще</button>
-          <button class="roundedButton moreNews all-news hidden"><a href="pages/news.html" class="roundedButton moreNews"
-            >Все новости</a
-          ></button>
+      </div>
+      <div class="report programs" id="programs-report">
+        <ul class="programs-items">
+        </ul>
+      </div>
+      <div class="indicators programs" id="programs-indicators">
+        <ul class="programs-items">
+          <li class="program-documents"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="news" id="news">
+    <div class="container">
+      <h2 class="news__title title wow animate__fadeInDown">Новости</h2>
+      <ul class="news-items">
+        <li class="wow animate__fadeInLeft">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185937" class="news__link">
+            <img src="images/news/1.jpg" alt="">
+            <h3 class="news-title">В режиме конструктивного диалога</h3>
+            <span class="news__date">14.03.2024</span>
+          </a>
+        </li>
+        <li class="wow animate__fadeInLeft animate__fast">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185931" class="news__link">
+            <img src="images/news/2.jpg" alt="">
+            <h3 class="news-title">Растить кадры для страны</h3>
+            <span class="news__date">14.03.2024</span>
+          </a>
+        </li>
+        <li class="wow animate__fadeInLeft animate__faster">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185905" class="news__link">
+            <img src="images/news/3.jpg" alt="">
+            <h3 class="news-title">Приглашаем принять участие во второй Международной научно-технической конференции
+              "Проблемы безопасности и эффективности технических систем"</h3>
+            <span class="news__date">12.03.2024</span>
+          </a>
+        </li>
+        <li class="hidden">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185781" class="news__link">
+            <img src="images/news/4.jpg" alt="">
+            <h3 class="news-title">«Приоритет 2030» в действии</h3>
+            <span class="news__date">29.02.2024</span>
+          </a>
+        </li>
+        <li class="hidden">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185739" class="news__link">
+            <img src="images/news/5.jpg" alt="">
+            <h3 class="news-title">Наука всему голова!</h3>
+            <span class="news__date">22.02.2024</span>
+          </a>
+        </li>
+        <li class="hidden">
+          <a href="https://www.pgups.ru/prioritet-2030/news_prioritet2030/?ELEMENT_ID=185665" class="news__link">
+            <img src="images/news/6.jpg" alt="">
+            <h3 class="news-title">А.А. Зайцев. Человек, инженер, учёный, министр...</h3>
+            <span class="news__date">14.02.2024</span>
+          </a>
+        </li>
+
+      </ul>
+      <div class="action">
+        <button class="roundedButton moreNews">Показать еще</button>
+        <button class="roundedButton moreNews all-news hidden"><a href="pages/news.html"
+            class="roundedButton moreNews">Все новости</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="department" id="department">
+    <div class="container">
+      <h2 class="news__title title wow animatefadeInDown">Цифровая кафедра</h2>
+      <p class="section__text wow animatefadeInRight">
+        Проект реализуется в рамках федерального проекта <br>«Развитие кадрового потенциала ИТ-отрасли» национальной
+        программы <br>«Цифровая экономика Российской Федерации».
+      </p>
+      <div class="projects-cards">
+        <div class="wrap">
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/secure-ecosystem/vertushka_ekosistema_site.jpg" alt="">
+              <p class="project-text">
+                Цифровая кафедра 2024/2025 учебный год <br>
+              </p>
+              <p class="project-text project-message">
+                Объявляется набор
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/digital-department/digital-department2024.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше">
+              </a>
+            </div>
+          </div>
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/secure-ecosystem/vertushka_ekosistema_site.jpg" alt="">
+              <p class="project-text">
+                Цифровая кафедра 2023/2024 учебный год
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/digital-department/digital-department2023.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше">
+              </a>
+            </div>
+          </div>
+          <div class="card wow animate__fadeInLeft">
+            <div class="front">
+              <img class="project-img" src="images/projects/secure-ecosystem/vertushka_ekosistema_site.jpg" alt="">
+              <p class="project-text">
+                Цифровая кафедра 2022/2023 учебный год
+              </p>
+            </div>
+            <div class="back">
+              <a href="pages/digital-department/digital-department2022.html" class="right-arrow">
+                <img src="images/icons/right-arrow.svg" alt="Узнать больше">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="department" id="department">
-      <div class="container">
-          <h2 class="news__title title wow animatefadeInDown">Цифровая кафедра</h2>
-          <p class="department__text wow animatefadeInRight">
-              Проект реализуется в рамках федерального проекта <br>«Развитие кадрового потенциала ИТ-отрасли» национальной
-              программы <br>«Цифровая экономика Российской Федерации».
-          </p>
-          <div class="projects-cards">
-              <div class="wrap">
-                  <div class="card wow animate__fadeInLeft">
-                      <div class="front">
-                          <img class="project-img" src="images/vertushka_ekosistema_site.jpg" alt="">
-                          <p class="project-text">
-                              Цифровая кафедра 2024/2025 учебный год <br>
-                          </p>
-                          <p class="project-text project-message">
-                              Объявляется набор
-                          </p>
-                      </div>
-                      <div class="back">
-                          <a href="pages/digital-department/digital-department2024.html" class="right-arrow">
-                              <img src="images/right-arrow.svg" alt="Узнать больше">
-                          </a>
-                      </div>
-                  </div>
-                  <div class="card wow animate__fadeInLeft">
-                      <div class="front">
-                          <img class="project-img" src="images/vertushka_ekosistema_site.jpg" alt="">
-                          <p class="project-text">
-                              Цифровая кафедра 2023/2024 учебный год
-                          </p>
-                      </div>
-                      <div class="back">
-                          <a href="pages/digital-department/digital-department2023.html" class="right-arrow">
-                              <img src="images/right-arrow.svg" alt="Узнать больше">
-                          </a>
-                      </div>
-                  </div>
-                  <div class="card wow animate__fadeInLeft">
-                      <div class="front">
-                          <img class="project-img" src="images/vertushka_materials_site.jpg" alt="">
-                          <p class="project-text">
-                              Цифровая кафедра 2022/2023 учебный год
-                          </p>
-                      </div>
-                      <div class="back">
-                          <a href="pages/digital-department/digital-department2022.html" class="right-arrow">
-                              <img src="images/right-arrow.svg" alt="Узнать больше">
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-  
-          <div class="department-media">
-              <h3 class="title media-title">Медиа о цифровых технологиях РЖД и не только</h3>
-              <div class="media">
-                  <dl>
-                      <dd>Сайт проекта</dd>
-                      <dt>
-                          <a href="https://rzddigital.ru" target="_blank">
-                              <img src="images/socials/internet.svg" alt="">
-                              <span>https://rzddigital.ru</span>
-                          </a>
-                      </dt>
-                      <dd>По всем вопросам</dd>
-                      <dt>
-                          <a href="https://t.me/RZDDigital" target="_blank">
-                              <img src="images/socials/telegram.svg" alt="">
-                              <span>@RZDDigital</span>
-                          </a>
-                          <a href="mailto:pr@rzddigital.ru" target="_blank">
-                              <img src="images/socials/mail.svg" alt="" id="mail">
-                              <span>pr@rzddigital.ru</span>
-                          </a>
-                      </dt>
-                  </dl>
-                  <dl>
-                      <dd>Канал о проекте «Цифровые кафедры»</dd>
-                      <dt>
-                          <a href="https://t.me/moyacifrovaya" target="_blank">
-                              <img src="images/socials/telegram.svg" alt="">
-                              <span>@moyacifrovaya</span>
-                          </a>
-                      </dt>
-                      <dd>Все &laquo;Цифровые кафедры&raquo;</dd>
-                      <dt>
-                        <a href="https://teletype.in/@moyacifrovaya/cifrovye_kafedry" target="_blank">
-                          <img src="images/socials/internet.svg" alt="">
-                          <span>cifrovye_kafedry</span>
-                        </a>
-                    </dt>
-                  </dl>
-              </div>
-          </div>
+      <div class="department-media">
+        <h3 class="title media-title">Медиа о цифровых технологиях РЖД и не только</h3>
+        <div class="media">
+          <dl>
+            <dd>Сайт проекта</dd>
+            <dt>
+              <a href="https://rzddigital.ru" target="_blank">
+                <img src="images/socials/internet.svg" alt="">
+                <span>https://rzddigital.ru</span>
+              </a>
+            </dt>
+            <dd>По всем вопросам</dd>
+            <dt>
+              <a href="https://t.me/RZDDigital" target="_blank">
+                <img src="images/socials/telegram.svg" alt="">
+                <span>@RZDDigital</span>
+              </a>
+              <a href="mailto:pr@rzddigital.ru" target="_blank">
+                <img src="images/socials/mail.svg" alt="" id="mail">
+                <span>pr@rzddigital.ru</span>
+              </a>
+            </dt>
+          </dl>
+          <dl>
+            <dd>Канал о проекте «Цифровые кафедры»</dd>
+            <dt>
+              <a href="https://t.me/moyacifrovaya" target="_blank">
+                <img src="images/socials/telegram.svg" alt="">
+                <span>@moyacifrovaya</span>
+              </a>
+            </dt>
+            <dd>Все &laquo;Цифровые кафедры&raquo;</dd>
+            <dt>
+              <a href="https://teletype.in/@moyacifrovaya/cifrovye_kafedry" target="_blank">
+                <img src="images/socials/internet.svg" alt="">
+                <span>cifrovye_kafedry</span>
+              </a>
+            </dt>
+          </dl>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="personalities" id="personalities">
-      <div class="container">
-        <h2 class="title politics__title wow animate__fadeInDown">
-          Состав Управляющего совета
-        </h2>
-        <div class="persons__slider">
-          <div class="slider">
-            <div
-              class="owl-loaded owl-theme owl-carousel wow animate__slideInRight"
-              id="persons-carousel"
-            >
-              <div class="person-card">
-                <img src="images/valinsky1.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Валинский Олег Сергеевич</h3>
-                  <span class="person-title"><p class="person-decrtipt">
+  <section class="personalities" id="personalities">
+    <div class="container">
+      <h2 class="title politics__title wow animate__fadeInDown">
+        Состав Управляющего совета
+      </h2>
+      <div class="persons__slider">
+        <div class="slider">
+          <div class="owl-loaded owl-theme owl-carousel wow animate__slideInRight" id="persons-carousel">
+            <div class="person-card">
+              <img src="images/valinsky1.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Валинский Олег Сергеевич</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
                     председатель совета, ректор ФГБОУ ВО ПГУПС
-                  </p></span>
-                </div>
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Титова Тамила Семеновна</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      заместитель председателя Совета, первый проректор — проректор по научной работе
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Титова Тамила Семеновна</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    заместитель председателя Совета, первый проректор — проректор по научной работе
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Андреев Владимир Евгеньевич</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      начальник Департамента технической политики ОАО «РЖД»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Андреев Владимир Евгеньевич</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    начальник Департамента технической политики ОАО «РЖД»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Буровцев Владимир Викторович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      ректор&nbsp;ФГБОУ ВО &laquo;Дальневосточный государственный университет путей сообщения&raquo;
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Буровцев Владимир Викторович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    ректор&nbsp;ФГБОУ ВО &laquo;Дальневосточный государственный университет путей сообщения&raquo;
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Журбин Алексей Александрович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      председатель Наблюдательного совета Ассоциации «Инженерная группа Стройпроект»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Журбин Алексей Александрович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    председатель Наблюдательного совета Ассоциации «Инженерная группа Стройпроект»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Козин Евгений Германович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      начальник ГУП «Петербургский метрополитен»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Козин Евгений Германович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    начальник ГУП «Петербургский метрополитен»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Малыгин Игорь Генадьевич</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      директор ФГБУН &laquo;Институт проблем транспорта&nbsp;им. Н.С.Соломенко Российской академии наук&raquo;
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Малыгин Игорь Генадьевич</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    директор ФГБУН &laquo;Институт проблем транспорта&nbsp;им. Н.С.Соломенко Российской академии
+                    наук&raquo;
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Попов Павел Александрович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      заместитель Генерального директора — директор Санкт-Петербургского филиала АО «НИИАС»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Попов Павел Александрович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    заместитель Генерального директора — директор Санкт-Петербургского филиала АО «НИИАС»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Рыбин Петр Кириллович</h3>
-                  <span class="person-title"
-                    >
-                    <p class="person-decrtipt">
-                      первый проректор — проректор по учебной работе
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Рыбин Петр Кириллович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    первый проректор — проректор по учебной работе
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Соловьев Сергей Вячеславович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      генеральный директор АО «РЖДстрой»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Соловьев Сергей Вячеславович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    генеральный директор АО «РЖДстрой»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Царев Михаил Владимирович</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      генеральный директор АО «Институт «Стройпроект»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Царев Михаил Владимирович</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    генеральный директор АО «Институт «Стройпроект»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Шангина Нина Николаевна</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      председатель Совета Союза реставраторов Санкт-Петербурга, генеральный директор группы компаний «АЖИО»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Шангина Нина Николаевна</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    председатель Совета Союза реставраторов Санкт-Петербурга, генеральный директор группы компаний
+                    «АЖИО»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Шаханов Дмитрий Сергеевич</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      заместитель генерального директора ОАО «РЖД»
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Шаханов Дмитрий Сергеевич</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    заместитель генерального директора ОАО «РЖД»
+                  </p>
+                </span>
               </div>
-              <div class="person-card">
-                <img src="images/unnamed.jpg" alt="" />
-                <div class="description">
-                  <h3 class="person-name">Гимазетдинова Олеся Викторовна</h3>
-                  <span class="person-title"
-                    ><p class="person-decrtipt">
-                      секретарь Совета, начальник отдела инновационных разработок и научно-исследовательской работы студентов
-                    </p></span
-                  >
-                </div>
+            </div>
+            <div class="person-card">
+              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <div class="description">
+                <h3 class="person-name">Гимазетдинова Олеся Викторовна</h3>
+                <span class="person-title">
+                  <p class="person-decrtipt">
+                    секретарь Совета, начальник отдела инновационных разработок и научно-исследовательской работы
+                    студентов
+                  </p>
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="rights">
-          <p class="right">
-            2024 &copy; Петербургский государственный университет путей
-            сообщения Императора Александра I
-          </p>
-        </div>
-        <div class="contacts">
-          <dl class="contacts-table">
-            <dd class="name">Куценко Сергей Михайлович</dd>
-
-            <dd>
-              <svg
-                class="phone-icon icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
-                  fill="#041a72"
-                />
-              </svg>
-            </dd>
-            <dt>
-              <a class="phone" href="tel:+78123152637">(812) 315-26-37</a>
-              <p class="phone">58-600</p>
-            </dt>
-
-            <dd>
-              <svg
-                class="email-icon icon"
-                fill="#041a72"
-                viewBox="0 0 1920 1920"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </dd>
-            <dt>
-              <a class="email" href="mailto:kutsenko@pgups.ru"
-                >kutsenko@pgups.ru</a
-              >
-            </dt>
-          </dl>
-        </div>
-        <div class="socials">
-          <a href="https://vk.com/pgups_ru">
-            <svg
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              data-name="Layer 1"
-            >
-              <path
-                d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"
-              />
-            </svg>
-          </a>
-          <a href="https://t.me/pgups_2020">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z"
-              />
-            </svg>
-          </a>
-        </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="rights">
+        <p class="right">
+          2024 &copy; Петербургский государственный университет путей
+          сообщения Императора Александра I
+        </p>
       </div>
-    </footer>
+      <div class="contacts">
+        <dl class="contacts-table">
+          <dd class="name">Куценко Сергей Михайлович</dd>
 
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/adaptive-nav.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="js/persons-slider.js"></script>
-    <script src="js/partners-slider.js"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/documents.js"></script>
-    <script src="js/news/news-index.js"></script>
-    <script src="js/news/news-test.js"></script>
-  </body>
+          <dd>
+            <svg class="phone-icon icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
+                fill="#041a72" />
+            </svg>
+          </dd>
+          <dt>
+            <a class="phone" href="tel:+78123152637">(812) 315-26-37</a>
+            <p class="phone">58-600</p>
+          </dt>
+
+          <dd>
+            <svg class="email-icon icon" fill="#041a72" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
+                fill-rule="evenodd" />
+            </svg>
+          </dd>
+          <dt>
+            <a class="email" href="mailto:kutsenko@pgups.ru">kutsenko@pgups.ru</a>
+          </dt>
+        </dl>
+      </div>
+      <div class="socials">
+        <a href="https://vk.com/pgups_ru">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+            <path
+              d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z" />
+          </svg>
+        </a>
+        <a href="https://t.me/pgups_2020">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/adaptive-nav.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/persons-slider.js"></script>
+  <script src="js/partners-slider.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/documents.js"></script>
+  <script src="js/news/news-index.js"></script>
+  <script src="js/news/news-test.js"></script>
+</body>
+
 </html>

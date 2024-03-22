@@ -1,3 +1,5 @@
+/* Синий прогресс-бар */
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -6,6 +8,8 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+/* Кнопка "Вернуться наверх" */
 
 $('.back-to-top').click(function () {
     $('body,html').animate({ scrollTop: 0}, 800);
@@ -20,6 +24,8 @@ $(window).scroll(function() {
         $('.back-to-top').removeClass('active');
     }
 });
+
+/* Кнопка "Пролистать вниз" */
 
 let scrollProgramList=0;  $(document).ready(function(){
     $("#downClick").on("click" ,function(){
