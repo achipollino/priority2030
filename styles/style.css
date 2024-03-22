@@ -100,18 +100,62 @@
     font-family: "Russo One";
     color: rgb(112, 112, 112);
     font-size: 50px;
+    margin-top: 20px;
+    margin: 10px auto 10px auto;
+    padding: 20px 20px;
+}
+
+.program-list {
+    margin: 50px auto 10px auto;
+    color: #fff;
+    padding: 80px 10px 40px 10px;
+    width: 1030px;
+}
+
+.program__text {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 100px 150px 50px 150px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
+}
+
+.priority-img {
+    width: 240px;
+    height: auto;
+    padding: 0px 30px 0px 20px;
+    animation: animate_grow 2s infinite;
+}
+
+@keyframes animate_grow {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.program-descript__title {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
 }
 
 .program__title-list {
     font-family: "Russo One";
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
-    margin: 0 150px 50px 150px;
+    color: #616161;
+    margin: 0 150px 20px 150px;
     text-align: left;
     line-height: 1.3;
     letter-spacing: 2px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(71, 71, 71, 0.15);
     animation: right 1.8s infinite;
 }
 
@@ -133,12 +177,12 @@
     margin: 0 150px 50px 150px;
     text-align: left;
     line-height: 1.3;
+    color: #616161;
 }
 
 /* Партнеры */
 
 .partners {
-    margin-top: 60px;
     padding: 60px 0;
     overflow-x: hidden;
 	background-color: #1a1b56;
@@ -186,8 +230,8 @@
  /* Проекты */
 
 .projects {
-    margin-top: 60px;
-    padding: 89px 0 70px 0;
+    padding: 60px 0 100px 0;
+    background-color: #fff;
 }
 
 .wrap {
@@ -271,34 +315,6 @@
     width: 30px;
     fill: #041a72;
     flex-shrink: 0;
-}
-
-.documents-filter {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-
-.filter-title {
-    font-size: 18px;
-    padding: 10px 40px 10px 40px;
-    transition: all .3s;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.filter-title:hover {
-    background-color: rgb(163, 163, 163);
-    color: #fff;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.filter-title.active {
-    background-color: #041a72;
-    color: #fff;
-    border-radius: 20px;
-    transition: 0.3s;
 }
 
 .files {
@@ -438,7 +454,11 @@
 
 /* Цифровая кафедра */
 
-.department, .department-frame, .personalities {
+.department {
+    padding: 0px 0 30px 0;
+}
+
+.department-frame, .personalities {
     margin-top: 60px;
     padding: 89px 0 30px 0;
 }
@@ -596,16 +616,6 @@
     40% {
     transform: translate(0);
     }
-  }
-
-  .program-list {
-    margin: 100px auto 80px auto;
-    background-color: rgb(138, 138, 138);
-    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
-    color: #fff;
-    padding: 80px 10px 80px 10px;
-    border-radius: 40px;
-    width: 1030px;
   }
 
 /* Цифровая кафедра */
