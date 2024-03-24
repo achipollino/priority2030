@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/geometria.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/geometria-bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Russo One";
+    src: url("../fonts/RussoOne-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container__partners {
+    max-width: 86%;
+    margin: 0 auto;
+}
+
+.promo-img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
+    border-radius: 0px;
+}
+
+.edu-politic {
+    width: 980px;
+}
+
+.photo {
+    width: 800px;
+}
+
+.header__text {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+table {
+    margin: 20px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table tr,
+table td,
+table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table td {
+    vertical-align: top;
+}
+
+table h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 20px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table tr,
+table td,
+table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table td {
+    vertical-align: top;
+}
+
+table h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+.purpose-project {
+    padding-top: 30px;
+    color: rgb(0, 27, 113);
+}
+
+.role-project {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 27, 113);
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(234, 10, 42);
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    object-fit: cover;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.images_project1 {
+    width: 380px;
+    height: auto;
+}
+
+.dd-2024 .container {
+    max-width: 1000px;
+}
+
+.strategy .purpose-project:first-child {
+    padding-top: 0;
+}
+
+.adventure {
+    background-color: rgb(0, 27, 113);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+    width: 187px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adventures-24 .adventures-items {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.dd-2024-text {
+    font-size: 22px;
+}

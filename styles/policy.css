@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url("../fonts/PlusJakartaSans-Medium.ttf");
+}
+
+.person {
+    margin: 0px 0px;
+}
+
+.person-card {
+    display: flex;
+    padding: 30px 0px;
+}
+
+.person-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.person-descript {
+    padding: 0px 20px;
+    margin-top: 80px;
+}
+
+.descript__name {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.person__link {
+    color: black;
+}
+
+.photos {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.gallery-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.purpose {
+    padding: 30px 0px;
+}
+
+.purpose__template {
+    position: relative;
+}
+
+.template-img {
+    width: 100%;
+}
+
+.tasks-politic__title {
+    text-align: center;
+}
+
+.task-bg__img {
+    width: 390px;
+}
+
+.tasks-politic-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}

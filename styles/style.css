@@ -197,13 +197,11 @@
 .partners {
     padding: 60px 0;
     overflow-x: hidden;
-	background-color: #1a1b56;
-    color: #fff;
+	background-color: #e2e1e1;
 }
 
 .personalities {
-    margin-top: 60px;
-    padding: 60px 0;
+    padding: 60px 0 30px 0px;
     overflow-x: hidden;
 	background-color: #efefef;
 }
@@ -314,7 +312,11 @@
 /* Документы */
 
 .documents {
-    padding: 89px 0 30px 0;
+    padding: 89px 0 80px 0;
+}
+
+.documents__list {
+    margin: 0px 80px;
 }
 
 .document__name {
@@ -372,6 +374,7 @@
 .politics-items li {
     padding: 25px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
 }
 
 .politics-items li:last-child {
@@ -386,12 +389,19 @@
     color: black;
     font-size: 18px;
     font-weight: 700;
+    margin-top: 10px;
+}
+
+.politic-img {
+    width: 40px;
+    height: auto;
+    padding-right: 20px;
 }
 
 /* Новости */
 
 .news {
-    padding: 89px 0 30px 0;
+    padding: 70px 0 70px 0;
     background: #efefef;
 }
 
@@ -465,17 +475,6 @@
 
 .hidden {
     display: none;
-}
-
-/* Цифровая кафедра */
-
-.department {
-    padding: 0px 0 30px 0;
-}
-
-.department-frame, .personalities {
-    margin-top: 60px;
-    padding: 89px 0 30px 0;
 }
 
 /* Цифровая трансформация */
@@ -632,6 +631,148 @@
     transform: translate(0);
     }
   }
+
+/* Результаты */
+
+.results {
+    padding: 0x 0 30px 0;
+    background: #f4f4f4;
+}
+
+/* Для обучающихся */
+
+.for-students {
+    padding: 0px 0 30px 0;
+    background-color: #f4f4f4;
+}
+
+.for-students__title {
+    padding-top: 80px;
+    color: #fff;
+}
+
+.for-students-list {
+    margin: 50px auto 10px auto;
+    color: #fff;
+    padding: 30px 10px 40px 10px;
+    width: 1400px;
+}
+
+.for-students__items {
+    display: flex;
+    width: 800px;
+    padding: 0px 20px
+}
+
+.students-list__item {
+    padding: 10px;
+}
+
+.program__text {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 150px 50px 150px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
+}
+
+.icon-students {
+    padding: 20px 0px;
+    animation: animate_grow 2s infinite;
+}
+
+@keyframes animate_grow {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.students__title-list {
+    font-family: "Russo One";
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 10px 20px 30px;
+    text-align: left;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(71, 71, 71, 0.15);
+}
+
+.students__more {
+    font-family: "Russo One";
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 10px 20px 30px;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+    animation: animate_grow 2s infinite;
+}
+
+.politic__more {
+    color: #fff;
+}
+
+.students-descript__text {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px 50px 30px;
+    text-align: left;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.background-students {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg-students {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.students-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.line {
+    display: flex;
+}
 
 /* Цифровая кафедра */
 
