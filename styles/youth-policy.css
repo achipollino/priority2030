@@ -1,0 +1,99 @@
+/* Баннер */
+
+.promo img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
+}
+
+.program {
+    padding: 80px 0 30px 0;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.program__title {
+    font-family: "Russo One";
+    color: rgb(112, 112, 112);
+    font-size: 30px;
+    margin: 0px auto 10px auto;
+    padding: 20px 20px;
+}
+
+.action {
+    text-align: center;
+}
+
+.circular-arrow {
+    width: 58px;
+    height: 58px;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 100%;
+    position: relative;
+    margin: 0px auto 42px auto;
+    animation: down 1.5s infinite;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.circular-arrow::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid rgb(167, 167, 167);
+    border-bottom: 2px solid rgb(167, 167, 167);
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+  @keyframes down {
+    0% {
+    transform: translate(0);
+    }
+    20% {
+    transform: translateY(15px);
+    }
+    40% {
+    transform: translate(0);
+    }
+}
+
+.partner-img {
+    width: 300px;
+}
+
+.photos__slider {
+    margin-top: 20px;
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border: 0px;
+}
+
+.program-list {
+    margin: 50px auto 10px auto;
+    color: #fff;
+    padding: 30px 10px 40px 10px;
+    width: 1030px;
+}
+
+.program-list__items {
+    display: flex;
+}
+
+.program-list__item {
+    padding: 10px;
+}
+
+.program__text {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 150px 50px 150px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
+}
