@@ -649,10 +649,11 @@
 .for-students__title {
     padding-top: 80px;
     color: #fff;
+    margin-bottom: 0px;
 }
 
 .for-students-list {
-    margin: 50px auto 10px auto;
+    margin: 20px auto 10px auto;
     color: #fff;
     padding: 30px 10px 40px 10px;
     width: 1400px;

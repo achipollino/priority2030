@@ -3,6 +3,10 @@
     src: url("../fonts/PlusJakartaSans-Medium.ttf");
 }
 
+.politic__title {
+    text-align: center;
+}
+
 .person {
     margin: 0px 0px;
 }
@@ -56,10 +60,6 @@
     width: 100%;
 }
 
-.tasks-politic__title {
-    text-align: center;
-}
-
 .task-bg__img {
     width: 390px;
 }
@@ -68,4 +68,221 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
+}
+
+.results-program {
+    padding-bottom: 40px;
+}
+
+.results-program__graphics {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.graph__img {
+    width: 250px;
+}
+
+.results__text {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.department__graphic {
+    padding: 20px 0px;
+}
+
+.department-graph__img {
+    width: 100%;
+}
+
+.indicator-value__text {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.value-table__title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.value-table__text {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.indicator-more__graphic {
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+
+.indicator-more__text {
+    padding-right: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.indicator-more__img {
+    width: 500px;
+}
+
+.laboratories__line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.laboratory__card-2, .laboratory__card-1 {
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    padding: 20px;
+    width: 480px;
+}
+
+.laboratory__card-1 {
+    margin-right: 30px;
+}
+
+.laboratory__name {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.laboratory-2__name {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.laboratory-3__name {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.laboratory-4__name {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.laboratory1_1-img, .laboratory1_2-img {
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+}
+
+.laboratory-2__images {
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.laboratory2_1-img, .laboratory2_2-img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+}
+
+.laboratory3_1-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.line-1-img {
+    display: flex;
+    width: 190px;
+    justify-content: center;
+}
+
+.line-2-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.laboratory3-img {
+    width: 160px;
+    height: auto;
+    padding: 5px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.new-network {
+    padding-top: 60px;
+}
+
+.program-line {
+    display: flex;
+}
+
+.network-program, .university-partner {
+    border: 2px #FF0000 solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.network-program {
+    width: 500px;
+    margin-right: 40px;
+}
+
+.university-partner {
+    width: 190px;
+}
+
+.direction-grey {
+    font-size: 14px;
+    color: #606060;
+    padding-bottom: 50px;
+}
+
+.program-name {
+    font-size: 26px;
+    font-weight: 800;
+    color: #FF3939;
+    line-height: 30.48px;
+    padding-bottom: 60px;
+}
+
+.strategy-project {
+    font-size: 14px;
+    font-weight: 600;
+    color: #464646;
+    text-align: right;
+}
+
+.university-partner {
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.logo-partner {
+    width: 120px;
+}
+
+.university__text {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
 }
