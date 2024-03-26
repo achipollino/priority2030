@@ -18,16 +18,27 @@
 </head>
 
 <body>
+
+  <header class="header-pages">
+    <a href="../../index.html#politics" class="logo">
+        <img src="../../images/icons/arrow-left.svg" alt="Назад">
+    </a>
+    <p class="header__text">Политики ПГУПС 2030</p>
+  </header>
+
   <section class="promo">
     <img src="../../images/banners/priotitet2030-banner.jpg" alt="" />
   </section>
 
-  <section class="program">
+  <section class="about-politic">
     <div class="container">
       <div class="program-about">
-        <h1 class="title program__title wow animate__fadeInDown">
-            ГЕНЕРАЛЬНЫЙ ЦЕЛЕВОЙ ТРЕК
+        <h1 class="about-politic__title wow animate__fadeInDown">
+            МОЛОДЕЖНАЯ ПОЛИТИКА
         </h1>
+        <h2 class="title program__title wow animate__fadeInDown">
+          ГЕНЕРАЛЬНЫЙ ЦЕЛЕВОЙ ТРЕК
+        </h2>
         <p class="section__text wow animate__fadeInRight">
             Сформировать студенческое сообщество, способное самостоятельно 
             анализировать проблемы, формировать задачи, находить способы и 
@@ -42,52 +53,53 @@
 
   <section class="photos-carousel">
     <div class="container">
+      <div id="program-list"></div>
       <div class="program-about">
-        <h1 class="title program__title wow animate__fadeInDown">
+        <h1 class="title gallery__title wow animate__fadeInDown">
             МЫ В ПРИОРИТЕТЕ!
         </h1>
         <div class="photos__slider">
             <div class="slider">
               <div class="owl-loaded owl-theme owl-carousel wow animate__slideInRight" id="photos-carousel">
                 <div class="partner__card">
-                  <a href="https://tmholding.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_9740-5 (1).jpg" alt="1" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_9740-5 (1).jpg" alt="1" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://metrostr.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_8332.jpg"
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_8332.jpg"
                       alt="2" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://www.rzd.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_7932 (2).jpg" alt="3" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_7932 (2).jpg" alt="3" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://xn--80aeci3adnpk.xn--p1ai/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_8266.jpg" alt="4" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_8266.jpg" alt="4" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="http://compositgroup74.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_8243.jpg" alt="5" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_8243.jpg" alt="5" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://www.agiogk.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_8196.jpg" alt="6" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_8196.jpg" alt="6" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://metro.spb.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_8469.jpg" alt="7" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_8469.jpg" alt="7" />
                   </a>
                 </div>
                 <div class="partner__card">
-                  <a href="https://niias.ru/" class="wow animate__fadeInLeft" target="_blank">
-                    <img class="partner-img" src="../../images/politics/youth-policy/carousel/DSC_9199-18.jpg" alt="8" />
+                  <a href="#" class="wow animate__fadeInLeft" target="_blank">
+                    <img class="photo-img" src="../../images/politics/youth-policy/carousel/DSC_9199-18.jpg" alt="8" />
                   </a>
                 </div>
               </div>
@@ -97,197 +109,264 @@
     </div>
   </section>
 
-  <!--<section class="politics" id="politics">
+  <section class="purpose">
+    <div class="purpose-list">
+      <div class="purpose__image">
+        <img src="../../images/politics/youth-policy/purpose-img.jpg" alt="" class="purpose-img">
+      </div>
+      <div class="purpose-list__items">
+          <h2 class="purpose__title wow animate__fadeInDown">
+            ЦЕЛЕВЫЕ ОРИЕНТИРЫ
+          </h2>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔ Обеспечение возможностей для роста и наращивания человеческого капитала молодёжи
+          </p>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔	Создание системы по формированию востребованных надпрофессиональных компетенций
+          </p>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔	Обеспечение мотивации молодёжи к инновационной деятельности, изобретательству и техническому творчеству, 
+            создание условий для раскрытия творческого и научного потенциала
+          </p>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔	Развитие трудовой и общественно полезной активности молодёжи
+          </p>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔	Формирование системы профессиональной ориентации молодёжи
+          </p>
+          <p class="purpose__item wow animate__fadeInDown">
+            ➔	Создание системы по развитию технологического студенческого 
+            предпринимательства и интеграции её в реальный сектор экономики
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tasks">
     <div class="container">
-      <h2 class="title politics__title wow animate__fadeInDown">Политики</h2>
-      <p class="section__text wow animate__fadeInRight">
-        Планы по достижению целевой модели:<br> политики университета по основным<br>
-        направлениям деятельности
-      </p>
-      <ul class="politics-items">
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/education.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/educational-policy.html" class="politics__link">
-            Образовательная политика
-          </a>
-        </li>
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/science.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/science-policy.html" class="politics__link">
-            Научно-исследовательская политика и политика в области инноваций и
-            коммерциализации разработок
-          </a>
-        </li>
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/thunder.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/youth-policy.html" class="politics__link">
-            Молодежная политика
-          </a>
-        </li>
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/capital.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/capital-policy.html" class="politics__link">
-            Политика управления человеческим капиталом
-          </a>
-        </li>
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/building.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/infrastructure-policy.html" class="politics__link">
-            Кампусная и инфраструктурная политика
-          </a>
-        </li>
-        <li class="politics-item wow animate__slideInRight">
-          <div class="icon-politic">
-            <img src="images/icons/computer.png" alt="" class="politic-img">
-          </div>
-          <a href="pages/policy/digital-policy.html" class="politics__link">
-            Политика в области цифровой трансформации и открытых данных
-          </a>
-        </li>
-      </ul>
+      <img src="images/for-students.jpg" alt="" class="bg-students">
+      <h2 class="title tasks__title wow animate__fadeInDown">
+        Задачи
+      </h2>
+      <div class="ul-line">
+        <div class="ul-1">
+          <ul class="tasks-items">
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-number">
+                <img src="../../images/politics/youth-policy/numbers/1.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Обеспечить условия для самообразования молодёжи
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/science.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Создание информационных систем поддержки
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/thunder.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Вовлечение молодёжи в непрерывное профессиональное образование
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/capital.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Поддержка получения правовых, экономических и управленческих знаний
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/building.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Создание студенческого отраслевого предпринимательского кластера во взаимодействии с представителями бизнес структур
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Организация деятельности молодёжной отраслевой инвестиционной площадки для реализации и продвижения студенческих научных коммерчески ориентированных инициатив
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Создание молодёжной отраслевой ассоциации трансфера технологий
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Сопровождение талантливых молодых людей в процессе обучения
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Разработка программ и организация специализированных летних интенсивных тренингов
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Поддержка профориентационной работы среди старших школьников
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Создание системы трудоустройства молодёжи в соответствии с её интересами
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="ul-2">
+          <ul class="tasks-items">
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Стимулирование трудовой мобильности молодёжи
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Организация развития студенческих отрядов
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Поддержка волонтёрской (добровольческой) деятельности
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Широкое вовлечение молодёжи в практики здорового образа жизни
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Развитие отдыха и оздоровления обучающихся
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Преодоление правового нигилизма
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Реализация программ, направленных на укрепление международного молодёжного сотрудничества
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Пропаганда традиционных семейных ценностей
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Поддержка студенческого самоуправления, молодёжных движений и объединений
+              </p>
+            </li>
+            <li class="tasks-item wow animate__slideInRight">
+              <div class="icon-politic">
+                <img src="images/icons/computer.png" alt="" class="task-img">
+              </div>
+              <p class="task__name">
+                Развитие молодёжного медийного пространства
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="department" id="department">
     <div class="video-bg">
-      <video video src="videos/IMG_0473.MOV" type="video/mp4" autoplay muted loop></video>
+      <video video src="../../videos/youth-policy.MOV" type="video/mp4" autoplay muted loop></video>
       <div class="effects"></div>
       <div class="video-bg__content">
         <h2 class="news__title title title-transformation wow animate__fadeInDown">
-          Цифровая кафедра
+          УНИКАЛЬНОСТЬ МОЛОДЁЖНОЙ ПОЛИТИКИ ПГУПС – АДАПТИВНОСТЬ
         </h2>
         <p class="section__text wow animate__fadeInRight">
-          Проект реализуется в рамках федерального проекта <br>«Развитие кадрового потенциала ИТ-отрасли» национальной
-          программы <br>«Цифровая экономика Российской Федерации»
+          Студенты предлагают – вуз внедряет.<br> Работаем общими силами в интересах каждого!
         </p>
         <div class="action">
           <button class="roundedButton">
-            <a href="pages/digital-transformation/digital-transformation.html" class="roundedButton">Подробнее</a>
+            <a href="pages/digital-transformation/digital-transformation.html" class="roundedButton">Смотри</a>
           </button>
         </div>
+        <p class="section-mini__text wow animate__fadeInRight">
+          Выездной семинар студенческого самоуправления в рамках реализации<br> программы стратегического академического лидерства «Приоритет-2030»
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="for-students">
-    <div class="background-students">
-      <img src="images/for-students.jpg" alt="" class="bg-students">
-      <div class="effects"></div>
-      <div class="students-bg__content">
-        <h2 class="title for-students__title wow animate__fadeInDown">
-          Для обучающихся
-        </h2>
-        <div class="for-students-list">
-          <div class="line">
-            <div class="for-students__items">
-              <div class="icon-students">
-                <img src="images/icons/university.png" alt="">
-              </div>
-              <div class="students-list__item">
-                <h2 class="title students__title-list wow animate__fadeInDown">
-                  Учись в прогрессивном вузе
-                </h2>
-                <p class="students-descript__text wow animate__fadeInRight">
-                  Участие нашего университета в программе «Приоритет 2030» дает студентам  возможность 
-                  учиться в статусном вузе, получить востребованное образование и внести свой вклад в 
-                  развитие цифровой экономики нашей страны.
-                </p>
-                <p class="students-descript__text wow animate__fadeInRight">
-                  97,8 наших выпускников трудоустроены к окончанию вуза благодаря сотрудничеству Университета 
-                  с индустриальными партнёрами. 
-                </p>
-              </div>
-            </div>
-            <div class="for-students__items">
-              <div class="icon-students">
-                <img src="images/icons/it.png" alt="">
-              </div>
-              <div class="students-list__item">
-                <h2 class="title students__title-list wow animate__fadeInDown">
-                  Получи профессию будущего и вторую специальность IT профиля 
-                </h2>
-                <p class="students-descript__text wow animate__fadeInRight">
-                  В ближайшие несколько лет в вузах-участниках проекта «Приоритет 2030» планируется создать более 300 новых образовательных программ. 
-                  Каждая вторая из них связана с цифровыми технологиями и развитием искусственного интеллекта.
-                  Уже сейчас в ПГУПС реализованы новые профили, нацеленные на проектирование систем искусственного интеллекта и
-                  их использование на железнодорожном транспорте. При этом обучение на цифровой кафедре для студентов дневной формы обучения бесплатное. 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="line">
-            <div class="for-students__items">
-              <div class="icon-students">
-                <img src="images/icons/science-students.png" alt="">
-              </div>
-              <div class="students-list__item">
-                <h2 class="title students__title-list wow animate__fadeInDown">
-                  Стань настоящим ученым
-                </h2>
-                <p class="students-descript__text wow animate__fadeInRight">
-                  ПГУПС активно занимается наукой, в том числе в рамках проекта «Приоритет 2030». 
-                  Есть разница: пассивно узнавать о чужих исследованиях и транслировать их слушателям в аудиториях 
-                  или самостоятельно делать открытия, находясь в самом центре научных достижений. А значит, 
-                  студенты получают самые актуальные, самые свежие знания из первоисточников. 
-                  Наши обучающиеся могут не только наблюдать, как в вузе происходят важные научные открытия, 
-                  но и принимать в них непосредственное участие.
-                </p>
-              </div>
-            </div>
-            <div class="for-students__items">
-              <div class="icon-students">
-                <img src="images/icons/star.png" alt="">
-              </div>
-              <div class="pstudents-list__item">
-                <h2 class="title students__title-list wow animate__fadeInDown">
-                  Выиграй грант
-                </h2>
-                <p class="students-descript__text wow animate__fadeInRight">
-                  Научные исследования и проекты студентов получат гранты от вуза. 
-                  Уже сейчас больше 100 студентов  на постоянной основе участвуют в выполнении 
-                  научно-исследовательских и опытно-конструкторских работ. 
-                </p>
-              </div>
-            </div>
-        </div>
-        <div class="line">
-          <div class="for-students__items">
-            <div class="icon-students">
-              <img src="images/icons/startup.png" alt="">
-            </div>
-            <div class="students-list__item">
-              <h2 class="title students__title-list wow animate__fadeInDown">
-                Создавай стартап
-              </h2>
-              <p class="students-descript__text wow animate__fadeInRight">
-                Положительный эффект от программы «Приоритет 2030» получат и те студенты, 
-                которые хотят заниматься не наукой, а бизнесом. Мы стремимся к тому, чтобы 
-                количество дипломных работ как стартапов увеличилось, как и предпринимателей 
-                среди выпускников, вовлечённых в собственную инновационную деятельность.
-              </p>
-            </div>
-          </div>
-          <div class="for-students__items">
-            <div class="students-list__item">
-              <h2 class="title students__more wow animate__fadeInDown">
-                <a href="pages/policy/youth-policy.html" class="politic__more">Узнать больше ➔</a>
-              </h2>
-            </div>
-          </div>
-        </div>
+  <section class="initiative">
+    <div class="initiative__body">
+      <h2 class="title initiative__title wow animate__fadeInDown">
+        ПРИСОЕДИНИТЬСЯ К ПРОГРАММЕ<br> «ПРИОРИТЕТ-2030»
+      </h2>
+      <p class="initiative__text wow animate__fadeInRight">
+        Есть идеи по развитию<br> молодёжной политики Университета?<br> Заполняй форму обратной связи и<br> становись частью команды!
+      </p>
+
+      <div class="action-initiative">
+        <button class="roundedButton-initiative">
+          <a href="https://forms.yandex.ru/u/65f98e1cf47e731b4706ecde/?clckid=61b1c714" target="_blank" class="roundedButton-initiative">В «ПРИОРИТЕТ-2030»</a>
+        </button>
       </div>
     </div>
-  </div>
   </section>
 
   <footer class="footer">
@@ -341,7 +420,7 @@
         </a>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
   <script src="../../js/jquery-3.7.1.min.js"></script>
   <script src="../../js/wow.min.js"></script>
