@@ -49,7 +49,17 @@ function parseFirstSixNews(xmlText) {
   let maxItemsToShow = 6;
   let maxItemsInLine = 3;
 
-  if (window.matchMedia("screen and (min-width: 1200px) and (max-width: 1770px)").matches) {
+  if (window.matchMedia("screen and (min-width: 1550px) and (max-width: 1770px)").matches) {
+    maxItemsToShow = 6;
+    maxItemsInLine = 3;
+  }
+
+  if (window.matchMedia("screen and (min-width: 1200px) and (max-width: 1550px)").matches) {
+    maxItemsToShow = 4;
+    maxItemsInLine = 2;
+  }
+
+  if (window.matchMedia("screen and (min-width: 992px) and (max-width: 1200px)").matches) {
     maxItemsToShow = 4;
     maxItemsInLine = 2;
   }

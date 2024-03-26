@@ -12,7 +12,15 @@ $(document).ready(function(){
             600: {
                 items: 2
             },
-            1000: {
+            992: {
+                items: 3,
+                margin: 10,
+            },
+            1100: {
+                items: 4,
+                margin: 10,
+            },
+            1200: {
                 items: 5,
                 margin: 60,
             }

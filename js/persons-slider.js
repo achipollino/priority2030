@@ -16,9 +16,17 @@ window.onload = function() {
                 center: true,
                 margin: 20,
             },
-            1200: {
+            992: {
                 items: 3,
+                margin: 15,
+            },
+            1200: {
+                items: 4,
                 margin: 20,
+            },
+            1550: {
+                items: 4,
+                margin: 40,
             },
             1770: {
                 items: 5,
