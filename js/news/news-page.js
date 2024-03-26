@@ -36,7 +36,7 @@ function loadRSS() {
         }
       }
     };
-    xhr.open("GET", "../../files/news.rss", true);
+    xhr.open("GET", "../files/news.rss", true);
     xhr.send();
   } catch (error) {
     console.error("Ошибка загрузки RSS:", error);
