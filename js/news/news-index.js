@@ -8,10 +8,14 @@ $(document).ready(function () {
     $(".all-news").removeClass("hidden");
     $(this).hide();
   });
+
+  window.addEventListener('resize', function () {
+    displayFirstSixNews(); // При изменении размера экрана перерисовываем новости
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  //displayFirstSixNews(); // Подгрузка XML
+  displayFirstSixNews(); // Подгрузка XML
 });
 
 function displayFirstSixNews() {
@@ -26,7 +30,7 @@ function displayFirstSixNews() {
         }
       }
     };
-    xhr.open("GET", "../files/news.rss", true);
+    xhr.open("GET", "../../files/news.rss", true);
     xhr.send();
   } catch (error) {
     console.error("Ошибка загрузки RSS:", error);
@@ -42,7 +46,15 @@ function parseFirstSixNews(xmlText) {
   const newsItems = newsSection.querySelector(".news-items");
   newsItems.innerHTML = ''; // Очистим блок новостей перед загрузкой новых
 
-  for (let i = 0; i < Math.min(items.length, 6); i++) {
+  let maxItemsToShow = 6;
+  let maxItemsInLine = 3;
+
+  if (window.matchMedia("screen and (min-width: 1200px) and (max-width: 1770px)").matches) {
+    maxItemsToShow = 4;
+    maxItemsInLine = 2;
+  }
+
+  for (let i = 0; i < Math.min(items.length, maxItemsToShow); i++) {
     const item = items[i];
     const title = item.querySelector("title").textContent;
     const link = item.querySelector("link").textContent;
@@ -58,7 +70,7 @@ function parseFirstSixNews(xmlText) {
     const newsItem = document.createElement("li");
     newsItem.classList.add("wow", "animate__fadeInLeft");
 
-    if (i < 3) {
+    if (i < maxItemsInLine) {
       newsItem.classList.add("animate__fadeInLeft");
     } else {
       newsItem.classList.add("hidden");

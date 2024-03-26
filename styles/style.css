@@ -432,6 +432,9 @@
     height: 240px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top left;
 }
 
 .news-title {
@@ -667,15 +670,6 @@
 
 .students-list__item {
     padding: 10px;
-}
-
-.program__text {
-    display: flex;
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 20px 150px 50px 150px;
-    padding: 30px 20px;
-    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
 }
 
 .icon-students {

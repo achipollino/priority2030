@@ -77,9 +77,9 @@ img {
 }
 
 .new-description {
-    max-height: 3.6em; /* Настройте максимальную высоту, соответствующую примерно двум предложениям */
-    overflow: hidden; /* Скрываем текст, который выходит за пределы высоты */
-    text-overflow: ellipsis; /* Добавляем многоточие для обозначения, что текст обрезан */
+    max-height: 3.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .news-link {
