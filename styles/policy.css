@@ -41,6 +41,10 @@
     color: black;
 }
 
+.person__link:hover {
+    color: rgb(122, 122, 122);
+}
+
 .photos {
     display: flex;
     padding: 30px 0px;
@@ -84,7 +88,13 @@
 .tasks-politic-cards {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 30px 0px 15px 0px;
+}
+
+.tasks-politic-cards-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 30px 0px;
 }
 
 .results-program {
@@ -116,6 +126,13 @@
 
 .department__graphic {
     padding: 20px 0px;
+}
+
+.department__graphic-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #1F5B4F;
+    text-align: center;
 }
 
 .department-graph__img {
@@ -152,8 +169,10 @@
 
 .indicator-more__text {
     padding-right: 20px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .indicator-more__img {
@@ -399,8 +418,15 @@
 .strategy-project {
     font-size: 14px;
     font-weight: 600;
-    color: #464646;
     text-align: right;
+}
+
+.strategy-project__link {
+    color: #464646;
+}
+
+.strategy-project__link:hover {
+    color: #7a7a7a;
 }
 
 .university-partner {
@@ -447,12 +473,12 @@
 }
 
 .events {
+    padding: 50px 0;
     background-color: #EBEBEB;
 }
 
 .events__title {
     margin: 0 auto;
-    padding: 50px 0px 20px 530px;
     font-weight: 700;
 }
 
@@ -468,6 +494,6 @@
 }
 
 .events-bg:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
     transition: 0.7s ease;
 }

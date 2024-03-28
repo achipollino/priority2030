@@ -111,6 +111,10 @@
     padding: 30px;
   }
 
+  .section__text br {
+    display: none;
+  }
+
   .menu__icon {
     z-index: 2;
     display: block;

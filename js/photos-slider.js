@@ -10,7 +10,8 @@ $(document).ready(function(){
                 items: 1
             },
             600: {
-                items: 2
+                items: 2,
+                margin: 30
             },
             1000: {
                 items: 3,

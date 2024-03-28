@@ -21,6 +21,10 @@
   <link rel="stylesheet" href="styles/media-queries/xxl.css" />
   <link rel="stylesheet" href="styles/media-queries/xxl-middle.css" />
   <link rel="stylesheet" href="styles/media-queries/xl.css" />
+<link rel="stylesheet" href="styles/media-queries/lg.css" />
+  <link rel="stylesheet" href="styles/media-queries/md.css" />
+  <link rel="stylesheet" href="styles/media-queries/sm.css" />
+  <link rel="stylesheet" href="styles/media-queries/xs.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -83,10 +87,10 @@
                 <a href="#personalities" class="menu-link">Состав совета</a>
               </li>
               <li>
-                <a href="#transformation" class="menu-link">Результаты</a>
+                <a href="#results" class="menu-link">Результаты</a>
               </li>
               <li>
-                <a href="#transformation" class="menu-link">Для обучающихся</a>
+                <a href="#for-students" class="menu-link">Для обучающихся</a>
               </li>
             </ul>
           </nav>
@@ -222,7 +226,7 @@
               </p>
             </div>
             <div class="back">
-              <a href="pages/projects/secure-ecosystem.html" class="right-arrow">
+              <a href="#" class="right-arrow">
                 <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
               </a>
             </div>
@@ -235,7 +239,7 @@
               </p>
             </div>
             <div class="back">
-              <a href="pages/projects/techno-material.html" class="right-arrow">
+              <a href="#" class="right-arrow">
                 <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
               </a>
             </div>
@@ -249,7 +253,7 @@
               </p>
             </div>
             <div class="back">
-              <a href="pages/projects/hard-movement.html" class="right-arrow">
+              <a href="#" class="right-arrow">
                 <img src="images/icons/right-arrow.svg" alt="Узнать больше" />
               </a>
             </div>
@@ -349,7 +353,7 @@
           <div class="icon-politic">
             <img src="images/icons/capital.png" alt="" class="politic-img">
           </div>
-          <a href="pages/policy/capital-policy.html" class="politics__link">
+          <a href="#" class="politics__link">
             Политика управления человеческим капиталом
           </a>
         </li>
@@ -357,7 +361,7 @@
           <div class="icon-politic">
             <img src="images/icons/building.png" alt="" class="politic-img">
           </div>
-          <a href="pages/policy/infrastructure-policy.html" class="politics__link">
+          <a href="#" class="politics__link">
             Кампусная и инфраструктурная политика
           </a>
         </li>
@@ -365,7 +369,7 @@
           <div class="icon-politic">
             <img src="images/icons/computer.png" alt="" class="politic-img">
           </div>
-          <a href="pages/policy/digital-policy.html" class="politics__link">
+          <a href="pages/digital-transformation/digital-transformation.html" class="politics__link">
             Политика в области цифровой трансформации и открытых данных
           </a>
         </li>
@@ -387,7 +391,7 @@
         </p>
         <div class="action">
           <button class="roundedButton">
-            <a href="pages/digital-transformation/digital-transformation.html" class="roundedButton">Подробнее</a>
+            <a href="pages/digital-department/digital-department/digital-department.html" class="roundedButton">Подробнее</a>
           </button>
         </div>
       </div>
@@ -451,7 +455,7 @@
     </div>
   </section>
 
-  <section class="for-students">
+  <section class="for-students" id="for-students">
     <div class="background-students">
       <img src="images/for-students.jpg" alt="" class="bg-students">
       <div class="effects"></div>
@@ -562,35 +566,17 @@
   </div>
   </section>
 
-  <section class="results">
-    <h2 class="title politics__title wow animate__fadeInDown">
-      Результаты
-    </h2>
-  </section>
-
-  <section class="documents" id="documents">
+  <section class="results" id="results">
     <div class="container">
       <h2 class="title politics__title wow animate__fadeInDown" style="visibility: visible; animation-name: fadeInDown">
-        Документы
+        Результаты
       </h2>
       <p class="section__text wow animate__fadeInRight">
-        Программа развития на 2021-2030 годы<br> и ключевые результаты развития в
+        Ключевые результаты развития в
         предыдущий период
       </p>
       <div class="documents__list">
         <ul class="programs-items">
-          <li class="program-documents">
-            <a href="files/Programma-razvitiya-2023.pdf" target="_blank">
-              <img src="images/icons/pdf.svg" alt="">
-              <div class="document__name">
-                <span>
-                  Программа развития университета на 2021–2030 годы в рамках
-                  реализации программы стратегического академического лидерства
-                  «Приоритет-2030».
-                </span>
-              </div>
-            </a>
-          </li>
           <li class="program-documents">
             <a href="files/Otchet-2023.zip" download>
               <img src="images/icons/zip.svg" alt="">
@@ -619,7 +605,7 @@
               Приложения 6,
             </a>
             <a href="files/Otchet2022(7).ZIP" download class="application">
-              Приложения 7
+              Приложения 7.
             </a>
           </li>
           <li class="program-documents">
@@ -629,7 +615,99 @@
                 <span>
                   Ежегодный отчёт о результатах реализации программы развития
                   университета в рамках реализации программы стратегического
-                  академического лидерства «Приоритет-2030» в 2021 году
+                  академического лидерства «Приоритет-2030» в 2021 году.
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/presentation-prioritet2030.pdf" target="_blank">
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Презентация ректора защиты отчета ы 2023 году.
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="documents" id="documents">
+    <div class="container">
+      <h2 class="title politics__title wow animate__fadeInDown" style="visibility: visible; animation-name: fadeInDown">
+        Документы
+      </h2>
+      <p class="section__text wow animate__fadeInRight">
+        Программа развития на 2021-2030 годы
+      </p>
+      <div class="documents__list">
+        <ul class="programs-items">
+          <li class="program-documents">
+            <a href="files/Programma-razvitiya-2023.pdf" target="_blank">
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Программа развития университета на 2021–2030 годы в рамках
+                  реализации программы стратегического академического лидерства
+                  «Приоритет-2030».
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/VF70_pr.pdf" download>
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Протокол заседания комиссии Министерства науки и высшего 
+                  образования Российской Федерации по проведению отбора российских
+                  образовательных организаций высшего образования в целях участия в
+                  программе стратегического академического лидерства "Приоритет 2030"
+                  от 01 декабря 2023 года № ВФ/70-ПР.
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/VF_75_pr.pdf" download>
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Протокол заседания комиссии Министерства науки и высшего
+                  образования Российской Федерации по проведению отбора российских
+                  образовательных организаций высшего образования в целях участия в
+                  программе стратегического академического лидерства "Приоритет 2030"
+                  от 14 декабря 2023 года № ВФ/75-ПР.
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/Prikaz_2_22.01.24.pdf" download>
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Приказ Министерства науки и высшего образования Российской
+                  Федерации от 22 января 2024 г. №32 об утверждении порядка расчета
+                  итогового балла, полученного по результатам оценки программы (проекта
+                  программы) развития российской образовательной организации высшего
+                  образования.
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="program-documents">
+            <a href="files/Prikaz_1_22.01.24.pdf" download>
+              <img src="images/icons/pdf.svg" alt="">
+              <div class="document__name">
+                <span>
+                  Приказ Министерства науки и высшего образования Российской
+                  Федерации от 22 января 2024 г. №33 об утверждении перечней целевых
+                  показателей эффективности реализации программ развития российских
+                  образовательных организаций высшего образования.
                 </span>
               </div>
             </a>
@@ -659,7 +737,7 @@
               </div>
             </div>
             <div class="person-card">
-              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <img src="images/personalities/titova.png" alt="" />
               <div class="description">
                 <h3 class="person-name">Титова Тамила Семеновна</h3>
                 <span class="person-title">
@@ -681,7 +759,7 @@
               </div>
             </div>
             <div class="person-card">
-              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <img src="images/personalities/burovcev.png" alt="" />
               <div class="description">
                 <h3 class="person-name">Буровцев Владимир Викторович</h3>
                 <span class="person-title">
@@ -748,7 +826,7 @@
               </div>
             </div>
             <div class="person-card">
-              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <img src="images/personalities/soloviev.png" alt="" />
               <div class="description">
                 <h3 class="person-name">Соловьев Сергей Вячеславович</h3>
                 <span class="person-title">
@@ -782,7 +860,7 @@
               </div>
             </div>
             <div class="person-card">
-              <img src="images/templates/unnamed-template.jpg" alt="" />
+              <img src="images/personalities/shahanov.png" alt="" />
               <div class="description">
                 <h3 class="person-name">Шаханов Дмитрий Сергеевич</h3>
                 <span class="person-title">
@@ -817,34 +895,6 @@
           2024 &copy; Петербургский государственный университет путей
           сообщения Императора Александра I
         </p>
-      </div>
-      <div class="contacts">
-        <dl class="contacts-table">
-          <dd class="name">Куценко Сергей Михайлович</dd>
-
-          <dd>
-            <svg class="phone-icon icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
-                fill="#041a72" />
-            </svg>
-          </dd>
-          <dt>
-            <a class="phone" href="tel:+78123152637">(812) 315-26-37</a>
-            <p class="phone">58-600</p>
-          </dt>
-
-          <dd>
-            <svg class="email-icon icon" fill="#041a72" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
-                fill-rule="evenodd" />
-            </svg>
-          </dd>
-          <dt>
-            <a class="email" href="mailto:kutsenko@pgups.ru">kutsenko@pgups.ru</a>
-          </dt>
-        </dl>
       </div>
       <div class="socials">
         <a href="https://vk.com/pgups_ru">

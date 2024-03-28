@@ -37,3 +37,7 @@ let scrollProgramList=0;  $(document).ready(function(){
     });
 
 });
+
+new WOW({
+    animateClass: 'animate__animated'
+}).init();

@@ -7,10 +7,24 @@ $(document).ready(function(){
         dots: false,
         responsive: {
             0: {
-                items: 1
+                items: 1,
+                margin: 40,
             },
-            600: {
-                items: 2
+            376: {
+                items: 1,
+                margin: 10,
+            },
+            576: {
+                items: 2,
+                margin: 10,
+            },
+            768: {
+                items: 2,
+                margin: 70,
+            },
+            880: {
+                items: 3,
+                margin: 10,
             },
             992: {
                 items: 3,

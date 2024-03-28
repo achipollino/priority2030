@@ -1,295 +1,338 @@
 @font-face {
-    font-family: Verdana;
-    src: url("../fonts/Verdana.ttf");
-    font-weight: 400;
+  font-family: Verdana;
+  src: url("../fonts/Verdana.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: Verdana;
-    src: url("../fonts/Verdana-Bold.ttf");
-    font-weight: 700;
+  font-family: Verdana;
+  src: url("../fonts/Verdana-Bold.ttf");
+  font-weight: 700;
 }
 
 .header-transformation {
-    padding: 15px 30px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    box-shadow: rgba(0, 0, 0, .13) 0 4px 16px;
-    background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.13) 0 4px 16px;
+  background: white;
+  top: 0;
+  width: 100%;
 }
 
 .logo {
-    position: absolute;
-    left: 30px;
-    top: calc(50% - 12.5px);
+  position: absolute;
+  left: 30px;
+  top: calc(50% - 12.5px);
 }
 
 .logo img {
-    width: 25px;
+  width: 25px;
 }
 
 img {
-    border-radius: 10px;
-    width: 190px;
+  border-radius: 10px;
+  width: 190px;
 }
 
 .header__text {
-    font-weight: 700;
-    font-size: 16px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .content {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .container {
-    max-width: 980px;
+  max-width: 980px;
 }
 
 .content-title {
-    font-size: 40px;
-    margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.person {
+  margin: 0px 0px;
+}
+
+.person-card {
+  display: flex;
+  padding: 30px 0px;
+}
+
+.person-img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.person-descript {
+  padding: 0px 20px;
+  margin-top: 80px;
+}
+
+.descript__name {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.person__link {
+  color: black;
+}
+
+.person__link:hover {
+  color: rgb(122, 122, 122);
 }
 
 /* Стратегия */
 
 .strategy {
-    background-color: #fff;
-    padding: 10px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
-.strategy-main, .tab-main {
-    display: flex;
+.strategy-main,
+.tab-main {
+  display: flex;
 }
 
 .purpose {
-    color: rgb(234, 10, 42);
+  color: rgb(234, 10, 42);
 }
 
 .strategy-text {
-    padding: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 0px;
 }
 
 .text {
-    text-align: justify;
-    padding-top: 10px;
+  text-align: justify;
+  padding-top: 10px;
 }
 
 .strategy-img {
-    padding: 0px 5px 5px 10px;
+  padding: 0px 5px 5px 10px;
 }
 
 .priority-img {
-    width: 230px;
-    height: auto;
+  width: 230px;
+  height: auto;
 }
 
 /* Задачи */
 
 .tasks {
-    background-color: #e2e2e2;
-    padding: 10px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+  background-color: #e2e2e2;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .tasks-title {
-    padding: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 0px;
 }
 
 .tab {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .tab button {
-    color: #fff;
-    background-color: rgb(138, 138, 138);
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    border-radius: 20px;
-    margin: 10px 5px 10px 0px;
+  color: #fff;
+  background-color: rgb(138, 138, 138);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-radius: 20px;
+  margin: 10px 5px 10px 0px;
 }
 
 .tab button:hover {
-    color: #fff;
-    background-color: rgb(234, 10, 42);
+  color: #fff;
+  background-color: rgb(234, 10, 42);
 }
 
 .tab button.active {
-    color: #fff;
-    background-color: rgb(234, 10, 42);
+  color: #fff;
+  background-color: rgb(234, 10, 42);
 }
 
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
 }
 
 .tab-content {
-    padding: 10px 15px 10px 0px;
-    transition: 0.7s ease;
+  padding: 10px 15px 10px 0px;
+  transition: 0.7s ease;
 }
 
 h3 {
-    padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 ul {
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 10px 0px 10px 25px;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px 0px 10px 25px;
 }
 
 .tab-content-img {
-    padding: 10px 5px 5px 10px;
+  padding: 10px 5px 5px 10px;
 }
 
 .tab-img {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
 }
 
 /* Проекты и мероприятия */
 
-.projects, .events, .digital-partners {
-    padding: 10px 20px;
-    margin-bottom: 120px;
+.projects,
+.events,
+.digital-partners {
+  padding: 10px 20px;
+  margin-bottom: 120px;
 }
 
 .projects-title {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 .projects-cards {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
-    display: block;
-    padding: 0px 30px;
-    transition: 0.7s ease;
-    width: 370px;
+  display: block;
+  padding: 0px 30px;
+  transition: 0.7s ease;
+  width: 370px;
 }
 
 .card:hover {
-    position: relative;
-    opacity: 1;
-    transform: scale(1.1);
-    transition: 0.7s ease;
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 .card-image {
-    width: 370px;
-    height: 220px;
+  width: 370px;
+  height: 220px;
 }
 
 .card-img {
-    display: block;
-    object-fit: cover;
-    border-radius: 0px;
-    width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0px;
+  width: 100%;
 }
 
 .card-main {
-    background-color: #c9c9c9;
-    padding: 10px 20px 20px 20px;
+  background-color: #c9c9c9;
+  padding: 10px 20px 20px 20px;
 }
 
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 
 .card-text {
-    padding: 10px 5px;
+  padding: 10px 5px;
 }
 
 .more {
-    padding: 10px 5px;
-    color: #313131;
+  padding: 10px 5px;
+  color: #313131;
 }
 
 /* Динамика изменений */
 
 .dynamics {
-    background-color: #fff;
-    padding: 10px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
-.dynamics-1, .dynamics-2 {
-    display: flex;
+.dynamics-1,
+.dynamics-2 {
+  display: flex;
 }
 
 .dynamics-project {
-    padding: 15px 5px;
+  padding: 15px 5px;
 }
 
 .dynamics-text {
-    padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .graf-text {
-    text-align: justify;
-    padding-top: 10px;
+  text-align: justify;
+  padding-top: 10px;
 }
 
 .dynamics-img {
-    padding: 10px 5px 5px 10px;
+  padding: 10px 5px 5px 10px;
 }
 
 .graf-img {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 }
 
 /* Наша команда */
 
 .team {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .team-title {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
-.team-main, .partner-main {
-    display: flex;
-    padding: 20px 0px;
-    justify-content: center;
+.team-main,
+.partner-main {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
 }
 
 .team-card {
-    padding: 5px 15px;
+  padding: 5px 15px;
 }
 
 /* Партнеры */
 
 .digital-partners {
-    background-color: #fff;
-    padding: 10px 20px;
-    margin-bottom: 80px;
-    border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 80px;
+  border-radius: 10px;
 }
 
 .partner-main {
-    display: flex;
+  display: flex;
 }
 
 .partner-card {
-    padding: 20px;
+  padding: 20px;
 }
 
-.complete-logo, .graviton-logo, .ricon-logo {
-    height: 70px;
-    width: auto;
+.complete-logo,
+.graviton-logo,
+.ricon-logo {
+  height: 70px;
+  width: auto;
 }
