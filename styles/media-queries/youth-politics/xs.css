@@ -1,0 +1,210 @@
+@media screen and (max-width: 376px) {
+  .logo {
+    left: 15px;
+    top: calc(50% - 10px);
+  }
+
+  .logo img {
+    width: 15px;
+  }
+
+  .header__text {
+    font-size: 13px;
+  }
+
+  .about-politic {
+    padding: 40px 0px 0px 0px;
+  }
+
+  .about-politic__title {
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .person-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-card {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .descript__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .descript__name {
+    font-size: 16px;
+  }
+
+  .descript__text {
+    font-size: 14px;
+  }
+
+  .gallery__title {
+    padding: 15px 20px 10px 0px;
+  }
+
+  .photos__slider {
+    padding-top: 0px;
+  }
+
+  .person-descript {
+    font-size: 15px;
+  }
+
+  .youth-policy__about {
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person-card {
+    margin-left: 0px;
+  }
+
+  .track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program__title {
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .program__text {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+    text-align: justify;
+  }
+
+  .circular-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .circular-arrow::before {
+    top: 8px;
+    left: 9px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    margin: 5px 4px;
+  }
+
+  .purpose__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .purpose-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .purpose-list {
+    padding: 20px 40px 40px 40px;
+  }
+
+  .purpose-list__items {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .purpose__item {
+    font-size: 14px;
+    padding: 20px 10px 0px 10px;
+  }
+
+  .tasks {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .tasks__title {
+    padding: 20px 10px 0px 10px;
+  }
+
+  .tasks-items li {
+    margin: 10px 5px;
+  }
+
+  .tasks-items li:hover {
+    margin: 10px 5px;
+  }
+
+  .results {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .results__title {
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .results-program__graphics {
+    flex-direction: column;
+  }
+
+  .video-bg {
+    height: 45vh;
+  }
+
+  .video-bg video {
+    height: 45vh;
+  }
+
+  .news__title {
+    font-size: 12px;
+    margin: 0px 15px 35px 15px;
+  }
+
+  .section__text {
+    font-size: 10px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .roundedButton {
+    font-size: 12px;
+    padding: 10px 27px;
+  }
+
+  .section-mini__text {
+    font-size: 10px;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .initiative__title {
+    text-align: left;
+    font-size: 16px;
+    padding: 20px 10px 20px 0px;
+    margin-bottom: 5px;
+  }
+
+  .initiative__text {
+    text-align: left;
+    font-size: 17px;
+  }
+
+  .roundedButton-initiative {
+    font-size: 12px;
+    padding: 12px 15px;
+  }
+}

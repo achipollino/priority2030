@@ -1,0 +1,74 @@
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .header__text {
+    font-size: 18px;
+  }
+
+  .descript__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .descript__name {
+    font-size: 18px;
+  }
+
+  .person-descript {
+    font-size: 15px;
+  }
+
+  .youth-policy__about {
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person-card {
+    margin-left: 0px;
+  }
+
+  .track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program__title {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .program__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px 30px 80px;
+    text-align: justify;
+  }
+
+  .purpose__title {
+    font-size: 26px;
+  }
+
+  .purpose__item {
+    font-size: 19px;
+  }
+
+  .results__title {
+    margin-bottom: 0px;
+  }
+
+  .video-bg {
+    height: 80vh;
+  }
+
+  .video-bg video {
+    height: 80vh;
+  }
+
+  .news__title {
+    font-size: 30px;
+  }
+}
