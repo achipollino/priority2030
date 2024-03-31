@@ -1,12 +1,12 @@
 @font-face {
   font-family: Verdana;
-  src: url("../fonts/Verdana.ttf");
+  src: url('../fonts/Verdana.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: Verdana;
-  src: url("../fonts/Verdana-Bold.ttf");
+  src: url('../fonts/Verdana-Bold.ttf');
   font-weight: 700;
 }
 
@@ -335,4 +335,43 @@ ul {
 .ricon-logo {
   height: 70px;
   width: auto;
+}
+
+.purpose {
+  padding: 50px 0;
+}
+
+.purpose-card {
+  padding: 40px;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 18px;
+  position: relative;
+}
+
+.purpose-title {
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 50px;
+  position: absolute;
+  left: -3px;
+  top: -30px;
+  padding-right: 15px;
+  background: #f4f4f6;
+}
+
+.purpose-image img {
+  width: 110px;
+}
+
+.purpose-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.purpose-text {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 24px;
 }
