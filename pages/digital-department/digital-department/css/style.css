@@ -619,3 +619,12 @@ body {
 .order {
     cursor: pointer;
 }
+
+.popup-thanks {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    display: none;
+    padding: 60px;
+}

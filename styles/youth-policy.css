@@ -327,11 +327,16 @@
 .results-program__graphics {
     display: flex;
     padding: 30px 0px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+}
+
+.graph {
+    max-width: 620px;
 }
 
 .graph__img {
-    width: 480px;
+    width: 100%;
     transition: 0.7s ease;
 }
 

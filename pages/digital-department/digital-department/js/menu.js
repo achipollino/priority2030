@@ -40,4 +40,29 @@ $(document).ready(function () {
         let section = $(this).closest('.program').attr('id');
         $('#program').val(section);
     });
+
+    $('.form-button').click(function () {
+        let nameInput = $('#name');
+        let universityInput = $('#university');
+        let directionInput = $('#direction');
+        let programInput = $('#program option:selected');
+        let phoneInput = $('#phone');
+        let emailInput = $('#email');
+
+        if (nameInput.val() && universityInput.val() && directionInput.val() && programInput.text() && phoneInput.val() && emailInput.val()) {
+            $.ajax({
+                type: 'post',
+                url: 'mail.php',
+                data: 'name=' + nameInput.val() + '&university=' + universityInput.val() + '&direction=' + directionInput.val() + '&program=' + programInput.text() + '&phone=' + phoneInput.val() + '&email=' + emailInput.val(),
+                success: () => {
+                    console.log('Письмо отправлено');
+                    $('.popup-form').hide();
+                    $('.popup-thanks').show();
+                },
+                error: () => {
+                    console.log('Ошибка');
+                }
+            });
+        }
+    })
 });

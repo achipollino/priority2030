@@ -1,4 +1,6 @@
-
+.content {
+    padding: 60px 0 0 0;
+}
 
 .person-link {
     font-size: 0;
@@ -228,10 +230,19 @@
 }
 
 .result {
-    padding: 40px 0;
-    background: #D9D9D9;
+    padding: 40px 0 70px 0;
+    background: url("../images/banners/human-bg-text.png");
+    background-size: cover;
 }
 
 .human__event-bg {
     max-width: 800px;
+}
+
+.result-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 22px;
 }

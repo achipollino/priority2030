@@ -1072,59 +1072,67 @@
 <section class="popup">
     <div class="container">
         <img src="img/close.svg" alt="" class="close">
-        <h3 class="popup-title">Оставьте заявку</h3>
-        <p class="popup-text">и мы обязательно с Вами свяжемся</p>
-        <form action="mail.php" method="post" class="order-form">
-            <div class="form-group">
-                <input type="text" class="form-input" id="name" name="name" required>
-                <label for="name" class="form-label">Фамилия, Имя, Отчество</label>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-input" id="university" name="university" required>
-                <label for="university" class="form-label">ВУЗ</label>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-input" id="direction" name="direction" required>
-                <label for="direction" class="form-label">Текущее направление обучения</label>
-            </div>
-            <div class="form-group">
-                <select class="form-input" id="program" name="program" required>
-                    <option disabled selected value></option>
-                    <option value="program01">Интеллектуальные технологии на&nbsp;железнодорожном транспорте</option>
-                    <option value="program02">Технологии интернета вещей</option>
-                    <option value="program03">Маркетинг и&nbsp;коммуникация в&nbsp;цифровой среде</option>
-                    <option value="program04">Системы автоматизированного проектирования для транспортной отрасли
-                    </option>
-                    <option value="program05">Автоматизация бизнес-процессов средствами платформы 1С:Предприятие
-                    </option>
-                    <option value="program06">Менеджмент цифровых продуктов</option>
-                </select>
-                <label for="program" class="form-label select-label">Выбрать программу</label>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-input" id="phone" name="phone" required>
-                <label for="phone" class="form-label">Телефон для связи</label>
-            </div>
-            <div class="form-group" id="email-form-group">
-                <input type="text" class="form-input" id="email" name="email" required>
-                <label for="email" class="form-label">Email</label>
-            </div>
-            <div class="form-agree">
-                <input type="checkbox" id="not-study" required>
-                <label for="not-study">
-                    Ранее не обучался на цифровой кафедре
-                </label>
-            </div>
-            <div class="form-agree">
-                <input type="checkbox" id="agree" required>
-                <label for="agree">
-                    Я согласен/на с использованием и обработкой персональных данных
-                </label>
-            </div>
-            <div class="form-action">
-                <button class="btn" type="submit">Отправить заявку</button>
-            </div>
-        </form>
+        <div class="popup-form">
+            <h3 class="popup-title">Оставьте заявку</h3>
+            <p class="popup-text">и мы обязательно с Вами свяжемся</p>
+            <form action="" method="post" class="order-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" name="name" required>
+                    <label for="name" class="form-label">Фамилия, Имя, Отчество</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" id="university" name="university" required>
+                    <label for="university" class="form-label">ВУЗ</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" id="direction" name="direction" required>
+                    <label for="direction" class="form-label">Текущее направление обучения</label>
+                </div>
+                <div class="form-group">
+                    <select class="form-input" id="program" name="program" required>
+                        <option disabled selected value></option>
+                        <option value="program01">Интеллектуальные технологии на&nbsp;железнодорожном транспорте
+                        </option>
+                        <option value="program02">Технологии интернета вещей</option>
+                        <option value="program03">Маркетинг и&nbsp;коммуникация в&nbsp;цифровой среде</option>
+                        <option value="program04">Системы автоматизированного проектирования для транспортной отрасли
+                        </option>
+                        <option value="program05">Автоматизация бизнес-процессов средствами платформы 1С:Предприятие
+                        </option>
+                        <option value="program06">Менеджмент цифровых продуктов</option>
+                    </select>
+                    <label for="program" class="form-label select-label">Выбрать программу</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" id="phone" name="phone" required>
+                    <label for="phone" class="form-label">Телефон для связи</label>
+                </div>
+                <div class="form-group" id="email-form-group">
+                    <input type="text" class="form-input" id="email" name="email" required>
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <div class="form-agree">
+                    <input type="checkbox" id="not-study" required>
+                    <label for="not-study">
+                        Ранее не обучался на цифровой кафедре
+                    </label>
+                </div>
+                <div class="form-agree">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        Я согласен/на с использованием и обработкой персональных данных
+                    </label>
+                </div>
+                <div class="form-action">
+                    <button class="btn form-button" type="button">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+        <div class="popup-thanks">
+            <p>
+                Спасибо! После обработки заявки Вам придет письмо на почту с инструкцией
+            </p>
+        </div>
     </div>
 </section>
 
