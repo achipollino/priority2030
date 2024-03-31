@@ -1,6 +1,6 @@
 window.onload = function () {
   $(document).ready(function () {
-    $("#persons-carousel").owlCarousel({
+    $('#persons-carousel').owlCarousel({
       nav: false,
       dots: true,
       responsive: {
@@ -22,7 +22,7 @@ window.onload = function () {
         },
         880: {
           items: 2,
-          margin: 10,
+          margin: 0,
         },
         992: {
           items: 3,
@@ -47,7 +47,7 @@ window.onload = function () {
   $(document).ready(function () {
     // Функция для выравнивания высоты элементов слайдера
     function alignSlideHeights() {
-      var slides = document.querySelectorAll(".person-card");
+      var slides = document.querySelectorAll('.person-card');
       var maxHeight = 0;
 
       // Находим максимальную высоту элемента слайдера
@@ -60,7 +60,7 @@ window.onload = function () {
 
       // Применяем максимальную высоту ко всем элементам слайдера
       slides.forEach(function (slide) {
-        slide.style.height = maxHeight + "px";
+        slide.style.height = maxHeight + 'px';
       });
     }
 
@@ -68,7 +68,7 @@ window.onload = function () {
     alignSlideHeights();
 
     // Выравниваем высоту при изменении размера экрана
-    window.addEventListener("resize", function () {
+    window.addEventListener('resize', function () {
       alignSlideHeights();
     });
   });
