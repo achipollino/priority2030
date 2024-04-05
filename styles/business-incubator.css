@@ -1,0 +1,225 @@
+.business-incubator__content {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.business-incubator__header {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.business-incubator__purpose {
+  background-color: #c4c4c4;
+  background: url(../images/politics/science-policy/business-incubator/ajy-01\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 30px;
+  z-index: 1;
+}
+
+.business-incubator__text {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+
+.business-incubator__purpose-card {
+  padding: 40px;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 18px;
+  position: relative;
+  background-color: #fff;
+}
+
+.business-incubator__tasks {
+  background-color: #fff;
+  padding: 30px 0px 30px 0px;
+}
+
+.result-item__text {
+  display: flex;
+}
+
+.result-item__list {
+  padding-left: 100px;
+}
+
+.business-incubator__descript {
+  background-color: #efefef;
+}
+
+.startap-projects {
+  padding: 40px 0;
+}
+
+.startap-projects table {
+  border-spacing: 15px;
+  width: 680px;
+}
+
+.startap-projects th {
+  font-size: 18px;
+}
+
+.startap-projects td {
+  border-radius: 20px;
+  box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.25);
+  background: rgb(245, 245, 245);
+  padding: 20px 10px;
+  transition: all 0.3s;
+  min-height: 107px;
+  width: 100%;
+}
+
+.startap-projects td:hover {
+  transform: scale(1.05);
+}
+
+.startap-projects td:first-child {
+  padding: 20px 20px 20px 90px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.startap-projects td:not(:first-child) {
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px 20px;
+}
+
+.table-number {
+  color: #d9d9d9;
+  font-size: 187px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: calc(50% - 126px);
+}
+
+.first {
+  font-size: 189px;
+}
+
+.second {
+  top: calc(50% - 124px);
+}
+
+.four {
+  top: calc(50% - 125px);
+  font-size: 189px;
+}
+
+.table-text {
+  position: relative;
+  z-index: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+  padding: 0px 30px 0px 60px;
+  width: 100%;
+}
+
+.continue {
+  padding: 40px 0px;
+  background-color: #fff;
+}
+
+.continue__block {
+  display: flex;
+  padding: 50px 0 10px 0;
+}
+
+.continue__block img {
+  width: 510px;
+  height: 270px;
+  padding-right: 20px;
+}
+
+.business-incubator__text-general {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+/* Галлерея */
+
+.photos-carousel {
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 30px;
+  z-index: 1;
+}
+
+.effects {
+  position: relative;
+  filter: brightness(50%);
+  z-index: 10;
+}
+
+.photo-img {
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.13) 0 4px 16px;
+}
+
+.photos-business__slider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border: 0px;
+}
+
+.photos-event {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.event__link {
+  max-width: 491px;
+  font-size: 0;
+}
+
+.event__img {
+  width: 100%;
+  transition: 0.7s ease;
+}
+
+.event__img:hover {
+  transform: scale(1.1);
+}
+
+.photos-business {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.event__link {
+  max-width: 391px;
+  font-size: 0;
+}
+
+.event__img {
+  width: 100%;
+  height: 160px;
+  transition: 0.7s ease;
+  border-radius: 10px;
+}
+
+.event__img:hover {
+  transform: scale(1.1);
+}

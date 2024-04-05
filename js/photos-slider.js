@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  $('#photos-carousel').owlCarousel({
+  $("#photos-carousel").owlCarousel({
     loop: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 2000,
     dots: true,
     nav: false,

@@ -1,0 +1,22 @@
+
+.photos-event {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.event__link {
+    max-width: 391px;
+    font-size: 0;
+}
+  
+.event__img {
+    width: 100%;
+    transition: 0.7s ease;
+}
+  
+.event__img:hover {
+    transform: scale(1.1);
+}
+  

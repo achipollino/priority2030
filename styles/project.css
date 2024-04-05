@@ -170,13 +170,14 @@
 
 .score-table th {
   font-size: 18px;
+  width: 100%;
 }
 
 .score-table td {
   border-radius: 20px;
   box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.25);
   background: rgb(245, 245, 245);
-  padding: 20px 10px;
+  padding: 20px 0px;
   transition: all 0.3s;
   min-height: 107px;
 }
@@ -230,6 +231,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   cursor: pointer;
   padding: 0px 30px 0px 40px;
+  width: 560px;
 }
 
 .result {
@@ -319,7 +321,7 @@
 .result-item {
   display: flex;
   align-items: flex-start;
-  padding: 25px 30px 0px 20px;
+  padding: 25px 30px 0px 50px;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -332,4 +334,70 @@
   width: 300px;
   border-radius: 10px;
   transition: 0.7s ease;
+}
+
+.general-mission {
+  background-color: #c4c4c4;
+  background: url(../images/banners/priority-logos-bg__blue.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 30px;
+  z-index: 1;
+}
+
+.general-mission-text {
+  background-color: #ffffff;
+  margin: 100px 0px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.general-mission-text__text {
+  font-size: 22px;
+  padding: 40px;
+}
+
+.red-arrow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-red {
+  width: 600px;
+}
+
+.result-general {
+  padding: 50px 0;
+}
+
+.result-general-card {
+  padding: 40px;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 18px;
+  position: relative;
+}
+
+.result-general-title {
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 50px;
+  position: absolute;
+  left: 290px;
+  top: -30px;
+  padding: 0px 15px;
+  background: #f4f4f6;
+}
+
+.result-general__text {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
 }
