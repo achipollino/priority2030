@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../../styles/general.css" />
     <link rel="stylesheet" href="../../styles/youth-policy.css" />
     <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="../../styles/video.css" />
 
     <link
       rel="stylesheet"
@@ -548,7 +549,7 @@
     <section class="department">
       <div class="video-bg">
         <video
-          video
+          id="background-video"
           src="../../videos/youth-policy.MOV"
           type="video/mp4"
           autoplay
@@ -567,12 +568,8 @@
             Работаем общими силами в интересах каждого!
           </p>
           <div class="action">
-            <button class="roundedButton">
-              <a
-                href="pages/digital-transformation/digital-transformation.html"
-                class="roundedButton"
-                >Смотри</a
-              >
+            <button class="roundedButton" onclick="openVideoModal()">
+              Смотри
             </button>
           </div>
           <p class="section-mini__text wow animate__fadeInRight">
@@ -582,6 +579,16 @@
         </div>
       </div>
     </section>
+
+    <div id="video-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeVideoModal()">&times;</span>
+        <video id="modal-video" controls>
+          <source src="../../videos/youth-policy.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
 
     <section class="initiative">
       <div class="initiative__body">
@@ -652,5 +659,6 @@
     ></script>
     <script src="../../js/photos-slider.js"></script>
     <script src="../../js/functions.js"></script>
+    <script src="../../js/video.js"></script>
   </body>
 </html>

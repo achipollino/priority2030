@@ -42,7 +42,7 @@ new WOW({
     animateClass: 'animate__animated'
 }).init();
 
-$('.results-program__graphics').magnificPopup({
+$('.results-program__graphics, .photos-event').magnificPopup({
     delegate: 'a',
     type: 'image',
     mainClass: 'mfp-img-mobile',
@@ -54,5 +54,5 @@ $('.results-program__graphics').magnificPopup({
     zoom: {
         enabled: true,
         duration: 300
-    }
+    },
 });
