@@ -350,7 +350,11 @@
 }
 
 .general-mission-text {
+<<<<<<< HEAD
   background-color: #ffffff;
+=======
+  background-color: #FFFFFF;
+>>>>>>> 1068af44412bc0aef48ace5cf911f50995149714
   margin: 100px 0px;
   border-radius: 10px;
   width: 100%;

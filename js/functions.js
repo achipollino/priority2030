@@ -46,6 +46,7 @@ new WOW({
   animateClass: "animate__animated",
 }).init();
 
+<<<<<<< HEAD
 $(".results-program__graphics, .photos-event, .photos-business").magnificPopup({
   delegate: "a",
   type: "image",
@@ -60,3 +61,19 @@ $(".results-program__graphics, .photos-event, .photos-business").magnificPopup({
     duration: 300,
   },
 });
+=======
+$('.results-program__graphics, .photos-event').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
+    },
+    zoom: {
+        enabled: true,
+        duration: 300
+    },
+});
+>>>>>>> 1068af44412bc0aef48ace5cf911f50995149714
